@@ -47,3 +47,8 @@
 18-Sep-2023 14:34:17.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\!2023 Fall\CS157A\CS157A-team10\apache-tomcat-8.5.93\webapps\ROOT] has finished in [230] ms
 18-Sep-2023 14:34:17.181 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 18-Sep-2023 14:34:17.217 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1795 ms
+18-Sep-2023 14:36:50.123 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Sep-2023 14:36:50.123 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Sep-2023 14:36:50.136 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Sep-2023 14:36:50.359 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Sep-2023 14:36:50.367 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
