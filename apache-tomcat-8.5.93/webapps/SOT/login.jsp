@@ -35,9 +35,14 @@
             String username = request.getParameter("username");
             String pass = request.getParameter("pass");
 
+            PreparedStatement pstmt = con.prepareStatement("SELECT password FROM users WHERE username = ?");
+            pstmt.setString(1, username);
+            ResultSet rs = pstmt.executeQuery();
+
+
             if (rs.next()){
                 String storedHashedPassword = rs.getString("password");
-                if (BCrypt.checkpw(enteredPassword, storedHashedPassword)) {
+                if (BCrypt.checkpw(pass, storedHashedPassword)) {
                     String sessionToken = UUID.randomUUID().toString();
 
                     PreparedStatement tokenStmt = con.prepareStatement("UPDATE users SET session_token = ? WHERE username = ?");
