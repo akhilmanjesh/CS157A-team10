@@ -1,4 +1,6 @@
 <%@ page import="java.sql.*"%>
+<%@ page import="org.mindrot.jbcrypt.BCrypt" %>
+<%@ page import="java.util.UUID" %>
 <html>
   <head>
     <title>Login Page</title>
@@ -33,18 +35,23 @@
             String username = request.getParameter("username");
             String pass = request.getParameter("pass");
 
-            if (username != null && password != null){
-                PreparedStatement pstmt = con.prepareStatement("SELECT * FROM users WHERE (username = ? AND password = ?)");
-                pstmt.setString(1, username);
-                pstmt.setString(2, pass);
-                ResultSet rs = pstmt.executeQuery();
-                
-                if (!rs.next()){
+            if (rs.next()){
+                String storedHashedPassword = rs.getString("password");
+                if (BCrypt.checkpw(enteredPassword, storedHashedPassword)) {
+                    String sessionToken = UUID.randomUUID().toString();
+
+                    PreparedStatement tokenStmt = con.prepareStatement("UPDATE users SET session_token = ? WHERE username = ?");
+                    tokenStmt.setString(1, sessionToken);
+                    tokenStmt.setString(2, username);
+                    tokenStmt.executeUpdate();
+                    tokenStmt.close();
+
+                    response.addCookie(new javax.servlet.http.Cookie("session_token", sessionToken));
+
+                    out.println("Login Successful");
+                } else {
                     out.println("Invalid Username or Password.");
-                } else{
-                    out.println("Login Sucessful");
                 }
-                rs.close();
             }
 
           } catch(SQLException e) { 

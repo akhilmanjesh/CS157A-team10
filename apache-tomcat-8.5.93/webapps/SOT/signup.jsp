@@ -1,4 +1,5 @@
 <%@ page import="java.sql.*"%>
+<%@ page import="org.mindrot.jbcrypt.BCrypt" %>
 <html>
   <head>
     <title>Signup Page</title>
@@ -42,9 +43,12 @@
             
             if ( username != null & email != null && pass != null & passRepeat != null){
               if (pass.equals(passRepeat)){
-                PreparedStatement pstmt = con.prepareStatement("INSERT INTO users VALUES (?, ?, '123', 'fmkro')");
+                String hashedPassword = BCrypt.hashpw(pass, BCrypt.gensalt());
+
+                PreparedStatement pstmt = con.prepareStatement("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
                 pstmt.setString(1, username);
                 pstmt.setString(2, email);
+                pstmt.setString(3, hashedPassword);
                 pstmt.executeUpdate();
                 pstmt.close();
                 con.close();
