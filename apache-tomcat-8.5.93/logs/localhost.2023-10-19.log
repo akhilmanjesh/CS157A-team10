@@ -730,3 +730,167 @@ Stacktrace:
 19-Oct-2023 13:51:07.726 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@72369d5f')
 19-Oct-2023 13:53:07.546 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
 19-Oct-2023 13:53:07.546 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+19-Oct-2023 14:10:36.746 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+19-Oct-2023 14:10:36.746 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+19-Oct-2023 14:10:36.746 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@72369d5f')
+19-Oct-2023 14:10:47.570 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [1] in the jsp file: [/projects.jsp]
+Syntax error on token "import", delete this token
+1: <% page import="java.sql.*"%>
+2: <html>
+3:     <head>
+4:         <title>Projects Page</title>
+
+
+An error occurred at line: [1] in the jsp file: [/projects.jsp]
+Syntax error, insert ";" to complete Statement
+1: <% page import="java.sql.*"%>
+2: <html>
+3:     <head>
+4:         <title>Projects Page</title>
+
+
+An error occurred at line: [18] in the jsp file: [/projects.jsp]
+DriverManager cannot be resolved
+15:             try {
+16:                 java.sql.Connection con;
+17:                 Class.forName("com.mysql.jdbc.Driver");
+18:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+19: 
+20:                 Statement stmt = con.createStatement();
+21:                 ResultSet rs = stmt.executeQuery("SELECT * FROM project");
+
+
+An error occurred at line: [20] in the jsp file: [/projects.jsp]
+Statement cannot be resolved to a type
+17:                 Class.forName("com.mysql.jdbc.Driver");
+18:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+19: 
+20:                 Statement stmt = con.createStatement();
+21:                 ResultSet rs = stmt.executeQuery("SELECT * FROM project");
+22: 
+23:                 while(rs.next()) {
+
+
+An error occurred at line: [21] in the jsp file: [/projects.jsp]
+ResultSet cannot be resolved to a type
+18:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+19: 
+20:                 Statement stmt = con.createStatement();
+21:                 ResultSet rs = stmt.executeQuery("SELECT * FROM project");
+22: 
+23:                 while(rs.next()) {
+24:                     out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + "<br/><br/>");
+
+
+An error occurred at line: [31] in the jsp file: [/projects.jsp]
+SQLException cannot be resolved to a type
+28:                 rs.close();
+29:                 stmt.close();
+30:                 con.close();
+31:             } catch(SQLException e) {
+32:                 out.println("SQLException caught: " + e.getMessage()); 
+33:             }
+34: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [1] in the jsp file: [/projects.jsp]
+Syntax error on token "import", delete this token
+1: <% page import="java.sql.*"%>
+2: <html>
+3:     <head>
+4:         <title>Projects Page</title>
+
+
+An error occurred at line: [1] in the jsp file: [/projects.jsp]
+Syntax error, insert ";" to complete Statement
+1: <% page import="java.sql.*"%>
+2: <html>
+3:     <head>
+4:         <title>Projects Page</title>
+
+
+An error occurred at line: [18] in the jsp file: [/projects.jsp]
+DriverManager cannot be resolved
+15:             try {
+16:                 java.sql.Connection con;
+17:                 Class.forName("com.mysql.jdbc.Driver");
+18:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+19: 
+20:                 Statement stmt = con.createStatement();
+21:                 ResultSet rs = stmt.executeQuery("SELECT * FROM project");
+
+
+An error occurred at line: [20] in the jsp file: [/projects.jsp]
+Statement cannot be resolved to a type
+17:                 Class.forName("com.mysql.jdbc.Driver");
+18:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+19: 
+20:                 Statement stmt = con.createStatement();
+21:                 ResultSet rs = stmt.executeQuery("SELECT * FROM project");
+22: 
+23:                 while(rs.next()) {
+
+
+An error occurred at line: [21] in the jsp file: [/projects.jsp]
+ResultSet cannot be resolved to a type
+18:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+19: 
+20:                 Statement stmt = con.createStatement();
+21:                 ResultSet rs = stmt.executeQuery("SELECT * FROM project");
+22: 
+23:                 while(rs.next()) {
+24:                     out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + "<br/><br/>");
+
+
+An error occurred at line: [31] in the jsp file: [/projects.jsp]
+SQLException cannot be resolved to a type
+28:                 rs.close();
+29:                 stmt.close();
+30:                 con.close();
+31:             } catch(SQLException e) {
+32:                 out.println("SQLException caught: " + e.getMessage()); 
+33:             }
+34: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+19-Oct-2023 14:25:54.393 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+19-Oct-2023 14:25:54.393 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
