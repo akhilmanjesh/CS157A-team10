@@ -894,3 +894,169 @@ Stacktrace:
 		at java.base/java.lang.Thread.run(Thread.java:833)
 19-Oct-2023 14:25:54.393 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
 19-Oct-2023 14:25:54.393 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+19-Oct-2023 14:50:27.459 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+19-Oct-2023 14:50:27.459 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+19-Oct-2023 14:50:27.459 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1b39ddf0')
+19-Oct-2023 14:50:27.880 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+19-Oct-2023 14:50:27.880 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+19-Oct-2023 14:51:08.527 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/Users/cross/Documents/CodeProjects/CS157A-team10/apache-tomcat-8.5.93/work/Catalina/localhost/SOT/org/apache/jsp/login_jsp.java]
+Only a type can be imported. org.mindrot.jbcrypt.BCrypt resolves to a package
+
+An error occurred at line: [45] in the jsp file: [/login.jsp]
+BCrypt cannot be resolved
+42:             ResultSet rs = pstmt.executeQuery();
+43:             if (rs.next()){
+44:                 String storedHashedPassword = rs.getString("password");
+45:                 if (BCrypt.checkpw(pass, storedHashedPassword)) {
+46:                     out.println("Test Login Successful");
+47:                     String sessionToken = UUID.randomUUID().toString();
+48: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/Users/cross/Documents/CodeProjects/CS157A-team10/apache-tomcat-8.5.93/work/Catalina/localhost/SOT/org/apache/jsp/login_jsp.java]
+Only a type can be imported. org.mindrot.jbcrypt.BCrypt resolves to a package
+
+An error occurred at line: [45] in the jsp file: [/login.jsp]
+BCrypt cannot be resolved
+42:             ResultSet rs = pstmt.executeQuery();
+43:             if (rs.next()){
+44:                 String storedHashedPassword = rs.getString("password");
+45:                 if (BCrypt.checkpw(pass, storedHashedPassword)) {
+46:                     out.println("Test Login Successful");
+47:                     String sessionToken = UUID.randomUUID().toString();
+48: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+19-Oct-2023 14:54:16.950 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/Users/cross/Documents/CodeProjects/CS157A-team10/apache-tomcat-8.5.93/work/Catalina/localhost/SOT/org/apache/jsp/signup_jsp.java]
+Only a type can be imported. org.mindrot.jbcrypt.BCrypt resolves to a package
+
+An error occurred at line: [46] in the jsp file: [/signup.jsp]
+BCrypt cannot be resolved
+43:             
+44:             if ( username != null & email != null && pass != null & passRepeat != null){
+45:               if (pass.equals(passRepeat)){
+46:                 String hashedPassword = BCrypt.hashpw(pass, BCrypt.gensalt());
+47: 
+48:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+49:                 pstmt.setString(1, username);
+
+
+An error occurred at line: [46] in the jsp file: [/signup.jsp]
+BCrypt cannot be resolved
+43:             
+44:             if ( username != null & email != null && pass != null & passRepeat != null){
+45:               if (pass.equals(passRepeat)){
+46:                 String hashedPassword = BCrypt.hashpw(pass, BCrypt.gensalt());
+47: 
+48:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+49:                 pstmt.setString(1, username);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [/Users/cross/Documents/CodeProjects/CS157A-team10/apache-tomcat-8.5.93/work/Catalina/localhost/SOT/org/apache/jsp/signup_jsp.java]
+Only a type can be imported. org.mindrot.jbcrypt.BCrypt resolves to a package
+
+An error occurred at line: [46] in the jsp file: [/signup.jsp]
+BCrypt cannot be resolved
+43:             
+44:             if ( username != null & email != null && pass != null & passRepeat != null){
+45:               if (pass.equals(passRepeat)){
+46:                 String hashedPassword = BCrypt.hashpw(pass, BCrypt.gensalt());
+47: 
+48:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+49:                 pstmt.setString(1, username);
+
+
+An error occurred at line: [46] in the jsp file: [/signup.jsp]
+BCrypt cannot be resolved
+43:             
+44:             if ( username != null & email != null && pass != null & passRepeat != null){
+45:               if (pass.equals(passRepeat)){
+46:                 String hashedPassword = BCrypt.hashpw(pass, BCrypt.gensalt());
+47: 
+48:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+49:                 pstmt.setString(1, username);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+19-Oct-2023 15:03:08.375 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+19-Oct-2023 15:03:08.375 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+19-Oct-2023 15:03:08.375 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2b5194f0')
+19-Oct-2023 15:03:08.809 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+19-Oct-2023 15:03:08.809 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
