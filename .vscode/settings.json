@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "apache-tomcat-8.5.93/webapps/SOT/WEB-INF/lib/servlet-api.jar",
+        "apache-tomcat-8.5.93/lib/servlet-api.jar"
+    ]
+}

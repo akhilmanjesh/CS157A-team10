@@ -1,6 +1,8 @@
 <%@ page import="java.sql.*"%>
 <%@ page import="org.mindrot.jbcrypt.BCrypt" %>
+<%@ page import="javax.servlet.http.*" %>
 <%@ page import="java.util.UUID" %>
+
 <html>
   <head>
     <title>Login Page</title>
@@ -38,25 +40,29 @@
             PreparedStatement pstmt = con.prepareStatement("SELECT password FROM users WHERE username = ?");
             pstmt.setString(1, username);
             ResultSet rs = pstmt.executeQuery();
-
-
             if (rs.next()){
                 String storedHashedPassword = rs.getString("password");
                 if (BCrypt.checkpw(pass, storedHashedPassword)) {
+                    out.println("Test Login Successful");
                     String sessionToken = UUID.randomUUID().toString();
 
+                    /*
                     PreparedStatement tokenStmt = con.prepareStatement("UPDATE users SET session_token = ? WHERE username = ?");
                     tokenStmt.setString(1, sessionToken);
                     tokenStmt.setString(2, username);
                     tokenStmt.executeUpdate();
                     tokenStmt.close();
+                    */
 
-                    response.addCookie(new javax.servlet.http.Cookie("session_token", sessionToken));
-
-                    out.println("Login Successful");
+                    HttpSession sso = request.getSession(true);
+                    sso.setAttribute("username", username);
+                    
+                    
                 } else {
                     out.println("Invalid Username or Password.");
                 }
+            } else if (!rs.next() && username != null){
+              out.println("Invalid Username or Password.");
             }
 
           } catch(SQLException e) { 
