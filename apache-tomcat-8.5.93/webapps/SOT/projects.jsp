@@ -10,7 +10,7 @@
     </head>
     <body>
         <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
-
+        <a href="create_project.jsp"><button>Create Project</button></a>
         <%
         String db = "sot";
         Properties props = new Properties();
