@@ -2,14 +2,13 @@
 <%@ page import="org.mindrot.jbcrypt.BCrypt" %>
 <%@ page import="javax.servlet.http.*" %>
 <%@ page import="java.util.UUID" %>
+<%@include file="index.jsp" %>
 
 <html>
   <head>
     <title>Login Page</title>
   </head>
   <body>
-    <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
-    <h3>Login</h1>
     <form action= "<%= request.getContextPath()%>/login.jsp" method = "post">
       <p>Please Login.</p>
   
@@ -54,7 +53,7 @@
                     tokenStmt.close();
                     */
 
-                    HttpSession sso = request.getSession(true);
+                    sso = request.getSession(true);
                     sso.setAttribute("username", username);
                     
                     
