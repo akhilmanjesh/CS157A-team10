@@ -33,14 +33,24 @@
                 <li class="nav-item">
                     <a class="nav-link" href="signup.jsp">Sign Up</a>
                 </li>
+                <%
+                    HttpSession sso = request.getSession(false);
+                    if (sso.getAttribute("username") != null){
+                        %>                
+                        <li class="nav-item">
+                            <a class="nav-link" href="logout.jsp">Logout</a>
+                        </li>
+                        <%
+                    } 
+                %>
             </ul>
         </div>
     </nav>
 
     <h1>Welcome to SOT: Student Organization Tasker</h1>
     <% 
-        HttpSession sso = request.getSession(false);
-        if (sso != null){
+        sso = request.getSession(false);
+        if (sso.getAttribute("username") != null){
             out.println("Greetings " + sso.getAttribute("username") + "!");
         }
     %>
