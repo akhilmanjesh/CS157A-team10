@@ -33,6 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="signup.jsp">Sign Up</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="settings.jsp">Settings</a>
+                </li>
             </ul>
         </div>
     </nav>
