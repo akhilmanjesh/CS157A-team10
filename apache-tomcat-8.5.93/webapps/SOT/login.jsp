@@ -55,8 +55,16 @@
 
                     sso = request.getSession(true);
                     sso.setAttribute("username", username);
-                    
-                    
+                    PreparedStatement checkCompanyStaff = con.prepareStatement("SELECT username FROM companystaff WHERE username = ?");
+                    checkCompanyStaff.setString(1, username);
+                    ResultSet rs2 = checkCompanyStaff.executeQuery();
+                    if (rs2.next()){
+                      sso.setAttribute("type", "companystaff");
+                    } else {
+                      sso.setAttribute("type", "student");
+                    }
+                    String redirectURL = "http://localhost:8080/SOT/index.jsp";
+                    response.sendRedirect(redirectURL);                   
                 } else {
                     out.println("Invalid Username or Password.");
                 }
