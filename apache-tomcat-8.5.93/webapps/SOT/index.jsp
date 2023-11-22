@@ -27,14 +27,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="events.jsp">Events</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.jsp">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="signup.jsp">Sign Up</a>
-                </li>
+   
                 <li class="nav-item">
                     <a class="nav-link" href="settings.jsp">Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="organizations.jsp">Organizations</a>
                 </li>
                 <%
                     HttpSession sso = request.getSession(false);
@@ -44,7 +42,16 @@
                             <a class="nav-link" href="logout.jsp">Logout</a>
                         </li>
                         <%
-                    } 
+                    } else {
+                        %>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.jsp">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.jsp">Sign Up</a>
+                        </li>
+                        <%
+                    }
                 %>
             </ul>
         </div>
@@ -55,6 +62,7 @@
         sso = request.getSession(false);
         if (sso.getAttribute("username") != null){
             out.println("Greetings " + sso.getAttribute("username") + "!");
+            out.println("Account type " + sso.getAttribute("type") + "!");
         }
     %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
