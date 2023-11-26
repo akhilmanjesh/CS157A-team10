@@ -10,6 +10,14 @@
     </head>
     <body>
         <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        
+        <h3>Create Team</h3>
+        <form action="settings.jsp" method="post">
+            <label for="teamName"><b>Team Name</b></label>
+            <input type="text" placeholder="Enter Team Name" name="teamName" id="teamName" required>
+    
+            <button type="submit" class="createTeamBtn">Create Team</button>
+        </form>
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -19,7 +27,7 @@
         String user = props.getProperty("db.username");
         String password = props.getProperty("db.password");
         Connection con = null;
-
+        
         try {
             HttpSession sso = request.getSession(false);
             Class.forName("com.mysql.jdbc.Driver");
