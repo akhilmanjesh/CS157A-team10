@@ -4,12 +4,11 @@
 
 <html>
     <head>
-        <title>Projects Page</title>
+        <title>Organization</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -19,33 +18,40 @@
         String user = props.getProperty("db.username");
         String password = props.getProperty("db.password");
         Connection con = null;
+
         try {
             HttpSession sso = request.getSession(false);
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+           
             String username = (String) sso.getAttribute("username");
-            if (username == null){
-                out.println("Login to view posts.");
-            } else {
-                String query = "SELECT * FROM posts WHERE orgName IN (SELECT orgName FROM memberofStudent WHERE username = ?)";
-                PreparedStatement ps = con.prepareStatement(query);
-                ps.setString(1, username);
-                ResultSet rs = ps.executeQuery();
-                while(rs.next()) {
-                    %>
-                    <div class ="card">
-                        <div class="card-body">
-                            <h5 class="card-title"><%=rs.getString(3)%></h5>
-                            <p class="card-text"><%=rs.getString(2)%></p>
-                        </div>
-                    </div>
-                    <%
-                }
-                out.println("No more posts.");
-
-                rs.close();
-                ps.close();
+            String orgName = request.getParameter("orgname");
+            String teamName = request.getParameter("teamname");
+            %>
+            <a href = "view_student_organization.jsp?orgname=<%=orgName%>"> <%=orgName%> </a>
+            <%
+            out.println(teamName);
+            //Owner View
+            String query = "SELECT username FROM studentLeads WHERE username = ? AND orgname = ?";
+            PreparedStatement ps = con.prepareStatement(query);   
+            ps.setString(1, username);
+            ps.setString(2, orgName);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()){
+                %>
+                <%@include file="edit_team.jsp"%>
+                <%
             }
+            //Member List
+            query = "SELECT * FROM assignedTo WHERE teamname = ? AND orgname = ?";
+            ps = con.prepareStatement(query);   
+            ps.setString(1, teamName);                  
+            ps.setString(2, orgName);
+            rs = ps.executeQuery();
+            while (rs.next()){
+                out.println(rs.getString(1));
+            }
+
         } catch(SQLException e) {
             out.println("SQLException caught: " + e.getMessage()); 
         } finally {
@@ -57,6 +63,7 @@
                 }
             }
         }
+
         %>
         <script src="js/bootstrap.min.js"></script>
     </body>

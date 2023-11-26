@@ -103,3 +103,55 @@
 25-Nov-2023 20:40:11.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\SOT] has finished in [225] ms
 25-Nov-2023 20:40:11.142 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 25-Nov-2023 20:40:11.168 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1790 ms
+25-Nov-2023 22:22:28.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.93
+25-Nov-2023 22:22:28.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 22:43:14 UTC
+25-Nov-2023 22:22:28.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.93.0
+25-Nov-2023 22:22:28.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Nov-2023 22:22:28.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2023 22:22:28.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2023 22:22:28.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+25-Nov-2023 22:22:28.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+9-LTS-190
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2023 22:22:28.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2023 22:22:28.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2023 22:22:28.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\conf\logging.properties
+25-Nov-2023 22:22:28.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2023 22:22:28.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2023 22:22:28.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2023 22:22:28.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2023 22:22:28.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93
+25-Nov-2023 22:22:28.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93
+25-Nov-2023 22:22:28.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\temp
+25-Nov-2023 22:22:28.613 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+25-Nov-2023 22:22:28.613 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+25-Nov-2023 22:22:28.613 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Nov-2023 22:22:28.616 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+25-Nov-2023 22:22:28.649 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 22:22:28.664 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 267 ms
+25-Nov-2023 22:22:28.689 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2023 22:22:28.690 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.93]
+25-Nov-2023 22:22:28.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\docs]
+25-Nov-2023 22:22:29.060 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 22:22:29.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\docs] has finished in [405] ms
+25-Nov-2023 22:22:29.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\examples]
+25-Nov-2023 22:22:29.861 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 22:22:29.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\examples] has finished in [801] ms
+25-Nov-2023 22:22:29.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\host-manager]
+25-Nov-2023 22:22:30.163 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 22:22:30.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\host-manager] has finished in [266] ms
+25-Nov-2023 22:22:30.169 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\manager]
+25-Nov-2023 22:22:30.434 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 22:22:30.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\manager] has finished in [267] ms
+25-Nov-2023 22:22:30.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\ROOT]
+25-Nov-2023 22:22:30.659 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 22:22:30.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\ROOT] has finished in [225] ms
+25-Nov-2023 22:22:30.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\SOT]
+25-Nov-2023 22:22:30.868 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 22:22:30.870 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\will\Desktop\CS157A-team10\apache-tomcat-8.5.93\webapps\SOT] has finished in [209] ms
+25-Nov-2023 22:22:30.872 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 22:22:30.914 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2250 ms
