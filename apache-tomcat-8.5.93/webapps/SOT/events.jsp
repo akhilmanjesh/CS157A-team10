@@ -29,7 +29,7 @@
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
 
                 Statement stmt = con.createStatement();
-                ResultSet rs = stmt.executeQuery("SELECT EventName, StudentOrgName, EventDate FROM events");
+                ResultSet rs = stmt.executeQuery("SELECT EventName, orgName, EventDate FROM events");
 
                 while (rs.next()) {
                     String eventName = rs.getString("EventName");

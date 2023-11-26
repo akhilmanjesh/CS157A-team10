@@ -52,17 +52,7 @@
     </form>
 
 
-    <script>
-        document.getElementById('orgType').addEventListener('change', function() {
-            var orgType = this.value;
-            var schoolNameContainer = document.getElementById('schoolNameContainer');
-            if(orgType === 'student') {
-                schoolNameContainer.style.display = 'block';
-            } else {
-                schoolNameContainer.style.display = 'none';
-            }
-        });
-    </script>
+
 
     <%
         String orgType = request.getParameter("orgType");
@@ -82,7 +72,6 @@
         String password = "1723";
         Connection con = null;
         PreparedStatement pstmt = null;
-
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(dbURL, user, password);

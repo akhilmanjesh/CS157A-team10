@@ -9,7 +9,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+    <%
+        HttpSession sso = request.getSession(false);
+        String username = (String) sso.getAttribute("username");
+        String orgName = request.getParameter("orgname");
+    %>
         <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -19,14 +25,11 @@
         String user = props.getProperty("db.username");
         String password = props.getProperty("db.password");
         Connection con = null;
-
-        try {
-            HttpSession sso = request.getSession(false);
+        
+        try {   
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
            
-            String username = (String) sso.getAttribute("username");
-            String orgName = request.getParameter("orgname");
 
             Statement stmt = con.createStatement();
 
@@ -37,18 +40,46 @@
             ResultSet rs = ps.executeQuery();
             //Check for valid website and print the contents.
             if (rs.next()){  
+                //Get Members
                 String schoolName = rs.getString(2);
                 out.println(orgName + "<br>");
                 out.println(schoolName + "<br>");
                 out.println("Members List: <br>");
                 query = "SELECT username FROM memberofstudent WHERE orgname = ?";
-                PreparedStatement ps2 = con.prepareStatement(query);
-                ps2.setString(1, orgName);
-                rs = ps2.executeQuery();
+                ps = con.prepareStatement(query);
+                ps.setString(1, orgName);
+                rs = ps.executeQuery();
                 while (rs.next()){
                     out.println(rs.getString(1) + "<br>");
                 }
+                //Get Teams
+                out.println("Teams List: <br>");
+                query = "SELECT * FROM teams WHERE orgname = ?";
+                ps = con.prepareStatement(query);
+                ps.setString(1, orgName);
+                rs = ps.executeQuery();
+                while (rs.next()){
+                    String tempTeamName = rs.getString(1);
+                    %>
+                    <a href = "view_team.jsp?orgname=<%=orgName%>&teamname=<%=tempTeamName%>"> <%=tempTeamName%> </a>
+                    <%
+                }
 
+                //Check if owner
+                query = "SELECT * FROM studentleads WHERE username = ? AND orgname = ?";
+                ps = con.prepareStatement(query);
+                ps.setString(1, username);
+                ps.setString(2, orgName);
+                rs = ps.executeQuery();
+                //Owner View
+                if (rs.next()){
+                %>
+                    <%@include file="create_team.jsp" %>
+                    <%@include file="create_post.jsp" %>
+                <%
+                }
+            ps.close();
+            rs.close();
             } else {
                 out.println("Invalid org name!");
             }

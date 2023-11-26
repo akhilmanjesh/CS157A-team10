@@ -10,6 +10,16 @@
     </head>
     <body>
         <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        
+        <%
+        HttpSession sso = request.getSession(false);
+        if (sso.getAttribute("username") != null){
+        %>
+            <%@include file="create_org.jsp" %>
+        <%
+        }
+        %>
+
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -21,7 +31,6 @@
         Connection con = null;
 
         try {
-            HttpSession sso = request.getSession(false);
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
            
@@ -29,7 +38,8 @@
 
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM studentorg");
-                
+
+            //Display Records    
                 while(rs.next()) {
                     String studentOrgName = rs.getString(1);
                     String schoolName = rs.getString(2);
@@ -50,10 +60,22 @@
                                     <a href="join_organization.jsp?orgname=<%=studentOrgName%>"><button>Join Org</button></a>
                                     <%
                                 } else {
+                                    query = "SELECT * FROM studentleads WHERE username = ? AND orgname = ?";
+                                    ps = con.prepareStatement(query);
+                                    ps.setString(1, username);
+                                    ps.setString(2, studentOrgName);
+                                    rs1 = ps.executeQuery();
+                                    if (!rs1.next()){
                                     %>
-                                    <a href="leave_organization.jsp?orgname=<%=studentOrgName%>"><button>Leave Org</button></a>
+                                        <a href="leave_organization.jsp?orgname=<%=studentOrgName%>"><button>Leave Org</button></a>
                                     <%
+                                    } else {
+                                    %>
+                                        <a href="delete_organization.jsp?orgname=<%=studentOrgName%>"><button>Delete Org</button></a>
+                                    <%  
+                                    }
                                 }
+                                ps.close();
                                 rs1.close();
                             }
                             %>
@@ -86,9 +108,20 @@
                                     <a href="join_organization.jsp?orgname=<%=compOrgName%>"><button>Join Org</button></a>                           
                                     <%
                                 } else {
+                                    query = "SELECT * FROM companyleads WHERE username = ? AND orgname = ?";
+                                    ps = con.prepareStatement(query);
+                                    ps.setString(1, username);
+                                    ps.setString(2, compOrgName);
+                                    rs1 = ps.executeQuery();
+                                    if (!rs1.next()){
                                     %>
-                                    <a href="leave_organization.jsp?orgname=<%=compOrgName%>"><button>Leave Org</button></a>
+                                        <a href="leave_organization.jsp?orgname=<%=compOrgName%>"><button>Leave Org</button></a>
                                     <%
+                                    } else {
+                                    %>
+                                        <a href="delete_organization.jsp?orgname=<%=compOrgName%>"><button>Delete Org</button></a>
+                                    <%  
+                                    }
                                 }
                                 rs1.close();
                             }
