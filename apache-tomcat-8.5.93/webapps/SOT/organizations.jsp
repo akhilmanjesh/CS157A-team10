@@ -36,7 +36,7 @@
                     %>
                     <div class ="card">
                         <div class="card-body">
-                            <h5 class="card-title"><%= studentOrgName %></h5>
+                            <h5 class="card-title"><a href="view_student_organization.jsp?orgname=<%=studentOrgName%>"><%= studentOrgName %></a></h5>
                             <p class="card-text"><%= schoolName %></p>
                             <%       
                             if (sso.getAttribute("username") != null && sso.getAttribute("type") == "student"){
@@ -73,7 +73,7 @@
                     %>
                     <div class ="card">
                         <div class="card-body">
-                            <h5 class="card-title"><%= compOrgName %></h5>
+                            <h5 class="card-title"><a href="view_company_organization.jsp?orgname=<%=compOrgName%>"><%= compOrgName %></a></h5>
                             <%       
                             if (sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff"){
                                 String query = "SELECT orgName FROM membersofcompany WHERE username = ? AND orgName = ?";
