@@ -33,13 +33,13 @@
 
                 while (rs.next()) {
                     String eventName = rs.getString("EventName");
-                    String studentOrgName = rs.getString("StudentOrgName");
+                    String orgName = rs.getString("orgName"); 
                     String eventDate = rs.getString("EventDate");
                     %>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title"><%= eventName %></h5>
-                            <p class="card-text">Organized by: <%= studentOrgName %></p>
+                            <p class="card-text">Organized by: <%= orgName %></p> <!-- Corrected line -->
                             <p class="card-text">Date: <%= eventDate %></p>
                         </div>
                     </div>
