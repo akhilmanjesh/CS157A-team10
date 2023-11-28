@@ -7,10 +7,44 @@
         <title>Projects Page</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+        <style>
+            .card-title {
+                color: #007bff;
+                text-decoration: underline;
+                cursor: pointer;
+                font-weight: bold;
+            }
+    
+            .card-title:hover {
+                color: #0056b3;
+            }
+        </style>
     </head>
     <body>
-        <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
-        <a href="create_project.jsp"><button>Create Project</button></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+                </div>
+                <div class="col-6">
+                    <form class="form-inline" method="post" action="">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searchTerm">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <%
+            HttpSession sso = request.getSession(false);
+            if(sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff") {
+                %> <a href="create_project.jsp"><button>Create Project</button></a> <%
+            }
+        %>
+        
+
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -23,18 +57,119 @@
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
-            
+
+            String searchTerm = request.getParameter("searchTerm");
+
+            String query = "SELECT * FROM project";
+
+            if (searchTerm != null && !searchTerm.isEmpty()) {
+                query += " WHERE ProjectName LIKE '%" + searchTerm + "%'";
+            }
+
             Statement stmt = con.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT ProjectName, ProjectDescription FROM project");
+            ResultSet rs = stmt.executeQuery(query);
 
             while(rs.next()) {
-                String projectName = rs.getString(1);
-                String projectDescription = rs.getString(2);
+                int projectId = rs.getInt(1);
+                String projectName = rs.getString(2);
+                String projectDescription = rs.getString(3);
+
+                String projectModalID = projectName.replace(" ", "_") + "Modal" + projectId; 
                 %>
                 <div class ="card">
                     <div class="card-body">
-                        <h5 class="card-title"><%= projectName %></h5>
+                        <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#<%= projectModalID %>"><%= projectName %></h5>
                         <p class="card-text"><%= projectDescription %></p>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="<%= projectModalID %>" tabindex="-1" aria-labelledby="<%= projectModalID %>Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="<%= projectModalID %>Label"><%= projectName %> Details</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><%= projectDescription %></p>
+                            </div>
+                            <div class = "modal-header">
+                                <h5 class="modal-title" id="teamsID"><strong>Teams: </strong></h5>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="list-group">
+                                    <%
+                                    String checkJoinedQuery = "SELECT * FROM workson WHERE projectid = ?";
+                                    PreparedStatement checkJoinPs = con.prepareStatement(checkJoinedQuery);
+                                    checkJoinPs.setInt(1, projectId);
+                                    ResultSet joinedRs = checkJoinPs.executeQuery();
+                                    while(joinedRs.next()) {
+                                        String joinedOrgName = joinedRs.getString(1);
+                                        String joinedTeamName = joinedRs.getString(2);
+                                        %>
+                                        <li class="list-group-item"><strong><%= joinedOrgName %></strong> - <%= joinedTeamName %></li>
+                                        <%
+                                    }
+
+                                    joinedRs.close();
+                                    checkJoinPs.close();
+                                    %>
+                                </ul>
+                            
+                                <%
+                                String username = (String) sso.getAttribute("username");
+                                if(username != null && sso.getAttribute("type") == "student") {
+                                    String leaderQuery = "SELECT * FROM studentleads WHERE username = ?";
+                                    PreparedStatement ps = con.prepareStatement(leaderQuery);
+                                    ps.setString(1, username);
+
+                                    ResultSet leaderRS = ps.executeQuery();
+
+                                    while(leaderRS.next()) {
+                                        String leaderOrgName = leaderRS.getString("orgname");
+
+                                        String teamsQuery = "SELECT * FROM teams WHERE orgname = ? AND teamname NOT IN (SELECT teamname FROM workson WHERE projectid = ?)";
+                                        PreparedStatement teamsPs = con.prepareStatement(teamsQuery);
+                                        teamsPs.setString(1, leaderOrgName);
+                                        teamsPs.setInt(2, projectId);
+                                        ResultSet teamsRS = teamsPs.executeQuery();
+                                        if(teamsRS.isBeforeFirst()) {
+                                        %>
+                                            <div>
+                                                <p><strong>Student Organization: </strong><%= leaderOrgName %></p>
+                                                <form action="joinProject.jsp" method="post">
+                                                    <input type="hidden" name="orgname" value="<%= leaderOrgName %>">
+                                                    <input type="hidden" name="projectid" value="<%= projectId %>">
+                                                    <label for="teamDropdown">Select Team:</label>
+                                                    <select name="teamDropdown" id="teamDropdown">
+                                                        <%
+                                                            while(teamsRS.next()) {
+                                                                String teamName = teamsRS.getString("teamName");
+                                                                %>
+                                                                <option value="<%= teamName %>"><%= teamName %></option> 
+                                                                <%
+                                                            }
+                                                        %>
+                                                        
+                                                    </select>
+                                                    <button type="submit" class="btn btn-primary">Join</button>
+                                                </form>
+                                            </div>
+                                        <%
+                                        }
+                                        teamsRS.close();
+                                        teamsPs.close();
+                                    }
+
+                                    leaderRS.close();
+                                    ps.close();
+                                }
+                                %>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <%
