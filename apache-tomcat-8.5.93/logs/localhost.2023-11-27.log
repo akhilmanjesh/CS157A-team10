@@ -1,0 +1,2098 @@
+27-Nov-2023 00:58:44.173 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Nov-2023 00:58:44.173 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Nov-2023 00:58:44.174 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@62cb208b')
+27-Nov-2023 00:58:52.463 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/projects.jsp]
+HTTPSession cannot be resolved to a type
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+26:             HTTPSession sso = request.getSession(false);
+27:             String username = (String) sso.getAttribute("username");
+28:             String type = (String) sso.getAttribute("type");
+29: 
+
+
+An error occurred at line: [39] in the jsp file: [/create_org.jsp]
+Duplicate local variable username
+36:         }
+37:         String schoolName = request.getParameter("schoolName");
+38:         String orgName = request.getParameter("orgName");
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+
+
+An error occurred at line: [42] in the jsp file: [/create_org.jsp]
+Duplicate local variable user
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+
+
+An error occurred at line: [43] in the jsp file: [/create_org.jsp]
+Duplicate local variable password
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+
+
+An error occurred at line: [44] in the jsp file: [/create_org.jsp]
+Duplicate local variable con
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+47:         PreparedStatement pstmt3 = null;    //Insert into members table
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/projects.jsp]
+HTTPSession cannot be resolved to a type
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+26:             HTTPSession sso = request.getSession(false);
+27:             String username = (String) sso.getAttribute("username");
+28:             String type = (String) sso.getAttribute("type");
+29: 
+
+
+An error occurred at line: [39] in the jsp file: [/create_org.jsp]
+Duplicate local variable username
+36:         }
+37:         String schoolName = request.getParameter("schoolName");
+38:         String orgName = request.getParameter("orgName");
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+
+
+An error occurred at line: [42] in the jsp file: [/create_org.jsp]
+Duplicate local variable user
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+
+
+An error occurred at line: [43] in the jsp file: [/create_org.jsp]
+Duplicate local variable password
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+
+
+An error occurred at line: [44] in the jsp file: [/create_org.jsp]
+Duplicate local variable con
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+47:         PreparedStatement pstmt3 = null;    //Insert into members table
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 00:59:02.131 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [39] in the jsp file: [/create_org.jsp]
+Duplicate local variable username
+36:         }
+37:         String schoolName = request.getParameter("schoolName");
+38:         String orgName = request.getParameter("orgName");
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+
+
+An error occurred at line: [42] in the jsp file: [/create_org.jsp]
+Duplicate local variable user
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+
+
+An error occurred at line: [43] in the jsp file: [/create_org.jsp]
+Duplicate local variable password
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+
+
+An error occurred at line: [44] in the jsp file: [/create_org.jsp]
+Duplicate local variable con
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+47:         PreparedStatement pstmt3 = null;    //Insert into members table
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [39] in the jsp file: [/create_org.jsp]
+Duplicate local variable username
+36:         }
+37:         String schoolName = request.getParameter("schoolName");
+38:         String orgName = request.getParameter("orgName");
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+
+
+An error occurred at line: [42] in the jsp file: [/create_org.jsp]
+Duplicate local variable user
+39:         String username = (String) sso.getAttribute("username");
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+
+
+An error occurred at line: [43] in the jsp file: [/create_org.jsp]
+Duplicate local variable password
+40: 
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+
+
+An error occurred at line: [44] in the jsp file: [/create_org.jsp]
+Duplicate local variable con
+41:         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
+42:         String user = "root";
+43:         String password = "1723";
+44:         Connection con = null;
+45:         PreparedStatement pstmt = null;     //Insert into Org Table
+46:         PreparedStatement pstmt2 = null;    //Insert into leader table
+47:         PreparedStatement pstmt3 = null;    //Insert into members table
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 00:59:40.177 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+Duplicate local variable db
+20:     </form>
+21: 
+22:     <% 
+23:      String db = "sot";
+24:         String user; // assumes database name is the same as username
+25:           user = "root";
+26:         String password = "1723";
+
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+Duplicate local variable user
+21: 
+22:     <% 
+23:      String db = "sot";
+24:         String user; // assumes database name is the same as username
+25:           user = "root";
+26:         String password = "1723";
+27:         try {
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+Duplicate local variable password
+23:      String db = "sot";
+24:         String user; // assumes database name is the same as username
+25:           user = "root";
+26:         String password = "1723";
+27:         try {
+28:             java.sql.Connection con; 
+29:             Class.forName("com.mysql.jdbc.Driver");
+
+
+An error occurred at line: [28] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+25:           user = "root";
+26:         String password = "1723";
+27:         try {
+28:             java.sql.Connection con; 
+29:             Class.forName("com.mysql.jdbc.Driver");
+30:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+31:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+Duplicate local variable db
+20:     </form>
+21: 
+22:     <% 
+23:      String db = "sot";
+24:         String user; // assumes database name is the same as username
+25:           user = "root";
+26:         String password = "1723";
+
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+Duplicate local variable user
+21: 
+22:     <% 
+23:      String db = "sot";
+24:         String user; // assumes database name is the same as username
+25:           user = "root";
+26:         String password = "1723";
+27:         try {
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+Duplicate local variable password
+23:      String db = "sot";
+24:         String user; // assumes database name is the same as username
+25:           user = "root";
+26:         String password = "1723";
+27:         try {
+28:             java.sql.Connection con; 
+29:             Class.forName("com.mysql.jdbc.Driver");
+
+
+An error occurred at line: [28] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+25:           user = "root";
+26:         String password = "1723";
+27:         try {
+28:             java.sql.Connection con; 
+29:             Class.forName("com.mysql.jdbc.Driver");
+30:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+31:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 00:59:55.681 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+21: 
+22:     <% 
+23:         try {
+24:             java.sql.Connection con; 
+25:             Class.forName("com.mysql.jdbc.Driver");
+26:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+27:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+21: 
+22:     <% 
+23:         try {
+24:             java.sql.Connection con; 
+25:             Class.forName("com.mysql.jdbc.Driver");
+26:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+27:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:01:23.344 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+con cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [28] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+29:             ResultSet rs1 = ps.executeQuery();
+30:             int last_id = 0;
+31: 
+
+
+An error occurred at line: [44] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+41:             if ( projectName != null & projectDescription != null){
+42:                 
+43: 
+44:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectid, projectname, projectdescription) VALUES (?, ?, ?)");
+45:                 pstmt.setInt(1, last_id + 1);
+46:                 pstmt.setString(2, projectName);
+47:                 pstmt.setString(3, projectDescription);
+
+
+An error occurred at line: [50] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+47:                 pstmt.setString(3, projectDescription);
+48:                 pstmt.executeUpdate();
+49:                 pstmt.close();
+50:                 con.close();
+51:                 out.println("project created");
+52:             }
+53:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+con cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [28] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+29:             ResultSet rs1 = ps.executeQuery();
+30:             int last_id = 0;
+31: 
+
+
+An error occurred at line: [44] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+41:             if ( projectName != null & projectDescription != null){
+42:                 
+43: 
+44:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectid, projectname, projectdescription) VALUES (?, ?, ?)");
+45:                 pstmt.setInt(1, last_id + 1);
+46:                 pstmt.setString(2, projectName);
+47:                 pstmt.setString(3, projectDescription);
+
+
+An error occurred at line: [50] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+47:                 pstmt.setString(3, projectDescription);
+48:                 pstmt.executeUpdate();
+49:                 pstmt.close();
+50:                 con.close();
+51:                 out.println("project created");
+52:             }
+53:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:01:54.061 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [27] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             
+26:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+27:             PreparedStatement ps = con.prepareStatement(query);
+28:             ResultSet rs1 = ps.executeQuery();
+29:             int last_id = 0;
+30: 
+
+
+An error occurred at line: [43] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+40:             if ( projectName != null & projectDescription != null){
+41:                 
+42: 
+43:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectid, projectname, projectdescription) VALUES (?, ?, ?)");
+44:                 pstmt.setInt(1, last_id + 1);
+45:                 pstmt.setString(2, projectName);
+46:                 pstmt.setString(3, projectDescription);
+
+
+An error occurred at line: [49] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+46:                 pstmt.setString(3, projectDescription);
+47:                 pstmt.executeUpdate();
+48:                 pstmt.close();
+49:                 con.close();
+50:                 out.println("project created");
+51:             }
+52:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [27] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             
+26:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+27:             PreparedStatement ps = con.prepareStatement(query);
+28:             ResultSet rs1 = ps.executeQuery();
+29:             int last_id = 0;
+30: 
+
+
+An error occurred at line: [43] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+40:             if ( projectName != null & projectDescription != null){
+41:                 
+42: 
+43:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectid, projectname, projectdescription) VALUES (?, ?, ?)");
+44:                 pstmt.setInt(1, last_id + 1);
+45:                 pstmt.setString(2, projectName);
+46:                 pstmt.setString(3, projectDescription);
+
+
+An error occurred at line: [49] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+46:                 pstmt.setString(3, projectDescription);
+47:                 pstmt.executeUpdate();
+48:                 pstmt.close();
+49:                 con.close();
+50:                 out.println("project created");
+51:             }
+52:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:02:18.902 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+con cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [28] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+29:             ResultSet rs1 = ps.executeQuery();
+30:             int last_id = 0;
+31: 
+
+
+An error occurred at line: [44] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+41:             if ( projectName != null & projectDescription != null){
+42:                 
+43: 
+44:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectid, projectname, projectdescription) VALUES (?, ?, ?)");
+45:                 pstmt.setInt(1, last_id + 1);
+46:                 pstmt.setString(2, projectName);
+47:                 pstmt.setString(3, projectDescription);
+
+
+An error occurred at line: [50] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+47:                 pstmt.setString(3, projectDescription);
+48:                 pstmt.executeUpdate();
+49:                 pstmt.close();
+50:                 con.close();
+51:                 out.println("project created");
+52:             }
+53:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+con cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+22:     <% 
+23:         try {
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [28] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+26:             
+27:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+28:             PreparedStatement ps = con.prepareStatement(query);
+29:             ResultSet rs1 = ps.executeQuery();
+30:             int last_id = 0;
+31: 
+
+
+An error occurred at line: [44] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+41:             if ( projectName != null & projectDescription != null){
+42:                 
+43: 
+44:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectid, projectname, projectdescription) VALUES (?, ?, ?)");
+45:                 pstmt.setInt(1, last_id + 1);
+46:                 pstmt.setString(2, projectName);
+47:                 pstmt.setString(3, projectDescription);
+
+
+An error occurred at line: [50] in the jsp file: [/create_project.jsp]
+con cannot be resolved
+47:                 pstmt.setString(3, projectDescription);
+48:                 pstmt.executeUpdate();
+49:                 pstmt.close();
+50:                 con.close();
+51:                 out.println("project created");
+52:             }
+53:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:02:35.994 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+23:         try {
+24:             java.sql.Connection con; 
+25:             Class.forName("com.mysql.jdbc.Driver");
+26:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+27:             
+28:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+29:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+23:         try {
+24:             java.sql.Connection con; 
+25:             Class.forName("com.mysql.jdbc.Driver");
+26:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+27:             
+28:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+29:             PreparedStatement ps = con.prepareStatement(query);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+23:         try {
+24:             java.sql.Connection con; 
+25:             Class.forName("com.mysql.jdbc.Driver");
+26:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+27:             
+28:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+29:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+23:         try {
+24:             java.sql.Connection con; 
+25:             Class.forName("com.mysql.jdbc.Driver");
+26:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+27:             
+28:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+29:             PreparedStatement ps = con.prepareStatement(query);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:03:07.315 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+props cannot be resolved
+20:     </form>
+21: 
+22:     <% 
+23:         String user = props.getProperty("db.username");
+24:         String password = props.getProperty("db.password");
+25:         try {
+26:             java.sql.Connection con; 
+
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+props cannot be resolved
+21: 
+22:     <% 
+23:         String user = props.getProperty("db.username");
+24:         String password = props.getProperty("db.password");
+25:         try {
+26:             java.sql.Connection con; 
+27:             Class.forName("com.mysql.jdbc.Driver");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+props cannot be resolved
+20:     </form>
+21: 
+22:     <% 
+23:         String user = props.getProperty("db.username");
+24:         String password = props.getProperty("db.password");
+25:         try {
+26:             java.sql.Connection con; 
+
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+props cannot be resolved
+21: 
+22:     <% 
+23:         String user = props.getProperty("db.username");
+24:         String password = props.getProperty("db.password");
+25:         try {
+26:             java.sql.Connection con; 
+27:             Class.forName("com.mysql.jdbc.Driver");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:03:23.454 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+Properties cannot be resolved to a type
+20:     </form>
+21: 
+22:     <% 
+23:         Properties props = new Properties();
+24:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+25:         props.load(input);
+26:         input.close();
+
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+Properties cannot be resolved to a type
+20:     </form>
+21: 
+22:     <% 
+23:         Properties props = new Properties();
+24:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+25:         props.load(input);
+26:         input.close();
+
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+InputStream cannot be resolved to a type
+21: 
+22:     <% 
+23:         Properties props = new Properties();
+24:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+25:         props.load(input);
+26:         input.close();
+27:         String user = props.getProperty("db.username");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+Properties cannot be resolved to a type
+20:     </form>
+21: 
+22:     <% 
+23:         Properties props = new Properties();
+24:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+25:         props.load(input);
+26:         input.close();
+
+
+An error occurred at line: [23] in the jsp file: [/create_project.jsp]
+Properties cannot be resolved to a type
+20:     </form>
+21: 
+22:     <% 
+23:         Properties props = new Properties();
+24:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+25:         props.load(input);
+26:         input.close();
+
+
+An error occurred at line: [24] in the jsp file: [/create_project.jsp]
+InputStream cannot be resolved to a type
+21: 
+22:     <% 
+23:         Properties props = new Properties();
+24:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+25:         props.load(input);
+26:         input.close();
+27:         String user = props.getProperty("db.username");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:03:37.429 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+Duplicate local variable props
+22:     </form>
+23: 
+24:     <% 
+25:         Properties props = new Properties();
+26:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+27:         props.load(input);
+28:         input.close();
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+Duplicate local variable input
+23: 
+24:     <% 
+25:         Properties props = new Properties();
+26:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+27:         props.load(input);
+28:         input.close();
+29:         String user = props.getProperty("db.username");
+
+
+An error occurred at line: [29] in the jsp file: [/create_project.jsp]
+Duplicate local variable user
+26:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+27:         props.load(input);
+28:         input.close();
+29:         String user = props.getProperty("db.username");
+30:         String password = props.getProperty("db.password");
+31:         try {
+32:             java.sql.Connection con; 
+
+
+An error occurred at line: [30] in the jsp file: [/create_project.jsp]
+Duplicate local variable password
+27:         props.load(input);
+28:         input.close();
+29:         String user = props.getProperty("db.username");
+30:         String password = props.getProperty("db.password");
+31:         try {
+32:             java.sql.Connection con; 
+33:             Class.forName("com.mysql.jdbc.Driver");
+
+
+An error occurred at line: [32] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+29:         String user = props.getProperty("db.username");
+30:         String password = props.getProperty("db.password");
+31:         try {
+32:             java.sql.Connection con; 
+33:             Class.forName("com.mysql.jdbc.Driver");
+34:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+35:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+Duplicate local variable props
+22:     </form>
+23: 
+24:     <% 
+25:         Properties props = new Properties();
+26:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+27:         props.load(input);
+28:         input.close();
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+Duplicate local variable input
+23: 
+24:     <% 
+25:         Properties props = new Properties();
+26:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+27:         props.load(input);
+28:         input.close();
+29:         String user = props.getProperty("db.username");
+
+
+An error occurred at line: [29] in the jsp file: [/create_project.jsp]
+Duplicate local variable user
+26:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+27:         props.load(input);
+28:         input.close();
+29:         String user = props.getProperty("db.username");
+30:         String password = props.getProperty("db.password");
+31:         try {
+32:             java.sql.Connection con; 
+
+
+An error occurred at line: [30] in the jsp file: [/create_project.jsp]
+Duplicate local variable password
+27:         props.load(input);
+28:         input.close();
+29:         String user = props.getProperty("db.username");
+30:         String password = props.getProperty("db.password");
+31:         try {
+32:             java.sql.Connection con; 
+33:             Class.forName("com.mysql.jdbc.Driver");
+
+
+An error occurred at line: [32] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+29:         String user = props.getProperty("db.username");
+30:         String password = props.getProperty("db.password");
+31:         try {
+32:             java.sql.Connection con; 
+33:             Class.forName("com.mysql.jdbc.Driver");
+34:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+35:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:05:09.004 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         */
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         */
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:05:15.489 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         */
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         */
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:05:20.969 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         */
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         */
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:05:30.556 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:05:49.841 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+user cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+An error occurred at line: [36] in the jsp file: [/create_project.jsp]
+password cannot be resolved to a variable
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+38:             String query = "SELECT MAX(projectid) AS last_id FROM project";
+39:             PreparedStatement ps = con.prepareStatement(query);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:06:48.135 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+34:             java.sql.Connection con; 
+35:             Class.forName("com.mysql.jdbc.Driver");
+36:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+37:             
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:06:57.231 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+Duplicate local variable db
+22:     </form>
+23: 
+24:     <% 
+25:         String db = "sot";
+26:         Properties props = new Properties();
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+Duplicate local variable props
+23: 
+24:     <% 
+25:         String db = "sot";
+26:         Properties props = new Properties();
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+29:         input.close();
+
+
+An error occurred at line: [27] in the jsp file: [/create_project.jsp]
+Duplicate local variable input
+24:     <% 
+25:         String db = "sot";
+26:         Properties props = new Properties();
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+
+
+An error occurred at line: [30] in the jsp file: [/create_project.jsp]
+Duplicate local variable user
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+
+
+An error occurred at line: [31] in the jsp file: [/create_project.jsp]
+Duplicate local variable password
+28:         props.load(input);
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+34:             Class.forName("com.mysql.jdbc.Driver");
+
+
+An error occurred at line: [32] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+34:             Class.forName("com.mysql.jdbc.Driver");
+35:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [25] in the jsp file: [/create_project.jsp]
+Duplicate local variable db
+22:     </form>
+23: 
+24:     <% 
+25:         String db = "sot";
+26:         Properties props = new Properties();
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+
+
+An error occurred at line: [26] in the jsp file: [/create_project.jsp]
+Duplicate local variable props
+23: 
+24:     <% 
+25:         String db = "sot";
+26:         Properties props = new Properties();
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+29:         input.close();
+
+
+An error occurred at line: [27] in the jsp file: [/create_project.jsp]
+Duplicate local variable input
+24:     <% 
+25:         String db = "sot";
+26:         Properties props = new Properties();
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+
+
+An error occurred at line: [30] in the jsp file: [/create_project.jsp]
+Duplicate local variable user
+27:         InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+28:         props.load(input);
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+
+
+An error occurred at line: [31] in the jsp file: [/create_project.jsp]
+Duplicate local variable password
+28:         props.load(input);
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+34:             Class.forName("com.mysql.jdbc.Driver");
+
+
+An error occurred at line: [32] in the jsp file: [/create_project.jsp]
+Duplicate local variable con
+29:         input.close();
+30:         String user = props.getProperty("db.username");
+31:         String password = props.getProperty("db.password");
+32:         Connection con = null;
+33:         try {
+34:             Class.forName("com.mysql.jdbc.Driver");
+35:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false",user, password);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:08:53.430 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [66] in the jsp file: [/create_project.jsp]
+redirectURL cannot be resolved to a variable
+63:                 out.println("project created");
+64:             }
+65:           String redirectUrl = "http://localhost:8080/SOT/projects.jsp";
+66:           response.sendRedirect(redirectURL);
+67:             
+68: 
+69:           } catch(SQLException e) { 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [66] in the jsp file: [/create_project.jsp]
+redirectURL cannot be resolved to a variable
+63:                 out.println("project created");
+64:             }
+65:           String redirectUrl = "http://localhost:8080/SOT/projects.jsp";
+66:           response.sendRedirect(redirectURL);
+67:             
+68: 
+69:           } catch(SQLException e) { 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:28:58.288 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [45] in the jsp file: [/create_project.jsp]
+choice cannot be resolved
+42:               <input type="text" placeholder="Enter Description" name="description" id="description" required>
+43: 
+44:               <select name="orgNameTarget" reqiuired>
+45:                 <%while(choice.next()){%>
+46:                   <option value="<%=rs1.getString(1)%>"><%=rs1.getString(1)%></option>
+47:                 <%}%>
+48:               </select>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [45] in the jsp file: [/create_project.jsp]
+choice cannot be resolved
+42:               <input type="text" placeholder="Enter Description" name="description" id="description" required>
+43: 
+44:               <select name="orgNameTarget" reqiuired>
+45:                 <%while(choice.next()){%>
+46:                   <option value="<%=rs1.getString(1)%>"><%=rs1.getString(1)%></option>
+47:                 <%}%>
+48:               </select>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2023 01:33:17.443 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [58] in the jsp file: [/create_project.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+55:             String orgNameTarget = request.getParameter("orgNameTarget");
+56:             if ( projectName != null & projectDescription != null){
+57:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectname, projectdescription, orgname) VALUES (?, ?, ?)");
+58:                 pstmt.setInt(1, projectName);
+59:                 pstmt.setString(2, projectDescription);
+60:                 pstmt.setString(3, orgNameTarget);
+61:                 pstmt.executeUpdate();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [58] in the jsp file: [/create_project.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+55:             String orgNameTarget = request.getParameter("orgNameTarget");
+56:             if ( projectName != null & projectDescription != null){
+57:                 PreparedStatement pstmt = con.prepareStatement("INSERT INTO project (projectname, projectdescription, orgname) VALUES (?, ?, ?)");
+58:                 pstmt.setInt(1, projectName);
+59:                 pstmt.setString(2, projectDescription);
+60:                 pstmt.setString(3, orgNameTarget);
+61:                 pstmt.executeUpdate();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

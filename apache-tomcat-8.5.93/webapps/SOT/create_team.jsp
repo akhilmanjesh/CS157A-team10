@@ -22,21 +22,33 @@
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(dbURL, user, password);
             if(teamName != null && !teamName.isEmpty()) {
-                String sql = "INSERT INTO teams (TeamName, Orgname) VALUES (?, ?)";
+                String sql = "SELECT * FROM teams WHERE teamname = ? and Orgname = ?";
                 pstmt = con.prepareStatement(sql);
                 pstmt.setString(1, teamName);
                 pstmt.setString(2, orgName);
-                int rowsAffected = pstmt.executeUpdate();
-                if(rowsAffected > 0) {
-                    out.println("<p>Team created successfully</p>");
-                String redirectURL = "http://localhost:8080/SOT/view_student_organization.jsp?orgname="+orgName;
-                response.sendRedirect(redirectURL);
+                rs = pstmt.executeQuery();
+
+                if (!rs.next()){
+                    sql = "INSERT INTO teams (TeamName, Orgname) VALUES (?, ?)";
+                    pstmt = con.prepareStatement(sql);
+                    pstmt.setString(1, teamName);
+                    pstmt.setString(2, orgName);
+                    int rowsAffected = pstmt.executeUpdate();
+                    if(rowsAffected > 0) {
+                        out.println("<p>Team created successfully</p>");
+                    String redirectURL = "http://localhost:8080/SOT/view_student_organization.jsp?orgname="+orgName;
+                    response.sendRedirect(redirectURL);
+                    } else {
+                        out.println("<p>An error occurred while creating the team</p>");
+                    }
                 } else {
-                    out.println("<p>An error occurred while creating the team</p>");
+                    throw new SQLException("Team already exists.");
                 }
+
+
             }
         } catch(SQLException e) {
-            out.println("<p>SQLException caught: " + e.getMessage() + "</p>");
+            out.println("<p>" + e.getMessage() + "</p>");
         } catch(ClassNotFoundException e) {
             out.println("<p>ClassNotFoundException caught: " + e.getMessage() + "</p>");
         } finally {
