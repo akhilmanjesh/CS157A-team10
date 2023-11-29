@@ -73,13 +73,42 @@
                 int projectId = rs.getInt(1);
                 String projectName = rs.getString(2);
                 String projectDescription = rs.getString(3);
-
+                String projectOrgName = rs.getString(4);
                 String projectModalID = projectName.replace(" ", "_") + "Modal" + projectId; 
+
+                String username = (String) sso.getAttribute("username");
+
+                boolean isInProjectOrg = false;
+                String isInProjectOrgQuery = "SELECT * FROM membersofcompany WHERE username = ? AND orgname = ?";
+                PreparedStatement inProjectPs = con.prepareStatement(isInProjectOrgQuery);
+                inProjectPs.setString(1, username);
+                inProjectPs.setString(2, projectOrgName);
+                ResultSet inProjectRS = inProjectPs.executeQuery();
+                isInProjectOrg = inProjectRS.next();
+
+                boolean isCompanyLead = false;
+                
+                String companyLeadsQuery = "SELECT * FROM companyleads WHERE username = ? AND orgname = ?";
+                PreparedStatement companyLeadsPs = con.prepareStatement(companyLeadsQuery);
+                companyLeadsPs.setString(1, username);
+                companyLeadsPs.setString(2, projectOrgName);
+                ResultSet companyLeadsRS = companyLeadsPs.executeQuery();
+                
+                isCompanyLead = companyLeadsRS.next();
+
+                companyLeadsRS.close();
+                companyLeadsPs.close();
                 %>
                 <div class ="card">
                     <div class="card-body">
                         <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#<%= projectModalID %>"><%= projectName %></h5>
                         <p class="card-text"><%= projectDescription %></p>
+                        <% if(sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff" && isInProjectOrg) { %>
+                            <a href="editProject.jsp?projectId=<%= projectId %>" class="btn btn-warning">Edit</a>
+                        <% } %>
+                        <% if (isCompanyLead) { %> 
+                            <a href="deleteProject.jsp?projectId=<%= projectId %>" class="btn btn-danger">Delete</a>
+                        <%  } %>
                     </div>
                 </div>
 
@@ -117,7 +146,6 @@
                                 </ul>
                             
                                 <%
-                                String username = (String) sso.getAttribute("username");
                                 if(username != null && sso.getAttribute("type") == "student") {
                                     String leaderQuery = "SELECT * FROM studentleads WHERE username = ?";
                                     PreparedStatement ps = con.prepareStatement(leaderQuery);
