@@ -1,0 +1,654 @@
+29-Nov-2023 00:04:55.404 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [51] in the jsp file: [/view_team.jsp]
+teamname cannot be resolved to a variable
+48:             if (rs.next()){
+49:                 while (rsTeams.next()){
+50:                     %>
+51:                         <a href= "http://localhost:8080/SOT/remove_team_member.jsp?orgname=<%=orgName%>&teamname=<%=teamname%>&target=<%rsTeams.getString(1)%>"><button>Remove User</button></a>
+52:                     <%
+53:                     out.println(rsTeams.getString(1) + "<br>");
+54:                 }
+
+
+An error occurred at line: [51] in the jsp file: [/view_team.jsp]
+Syntax error, insert ";" to complete Statement
+48:             if (rs.next()){
+49:                 while (rsTeams.next()){
+50:                     %>
+51:                         <a href= "http://localhost:8080/SOT/remove_team_member.jsp?orgname=<%=orgName%>&teamname=<%=teamname%>&target=<%rsTeams.getString(1)%>"><button>Remove User</button></a>
+52:                     <%
+53:                     out.println(rsTeams.getString(1) + "<br>");
+54:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [51] in the jsp file: [/view_team.jsp]
+teamname cannot be resolved to a variable
+48:             if (rs.next()){
+49:                 while (rsTeams.next()){
+50:                     %>
+51:                         <a href= "http://localhost:8080/SOT/remove_team_member.jsp?orgname=<%=orgName%>&teamname=<%=teamname%>&target=<%rsTeams.getString(1)%>"><button>Remove User</button></a>
+52:                     <%
+53:                     out.println(rsTeams.getString(1) + "<br>");
+54:                 }
+
+
+An error occurred at line: [51] in the jsp file: [/view_team.jsp]
+Syntax error, insert ";" to complete Statement
+48:             if (rs.next()){
+49:                 while (rsTeams.next()){
+50:                     %>
+51:                         <a href= "http://localhost:8080/SOT/remove_team_member.jsp?orgname=<%=orgName%>&teamname=<%=teamname%>&target=<%rsTeams.getString(1)%>"><button>Remove User</button></a>
+52:                     <%
+53:                     out.println(rsTeams.getString(1) + "<br>");
+54:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 00:05:21.816 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/remove_team_member.jsp]
+The method getParameter(String) is undefined for the type HttpSession
+28:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);         
+29:             String username = (String) sso.getAttribute("username");
+30:             String type = (String) sso.getAttribute("type");
+31:             String targetUser = (String) sso.getParameter("target");
+32:             String teamName = (String) request.getParameter("teamname");
+33:             String orgName = (String) request.getParameter("orgname");
+34: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/remove_team_member.jsp]
+The method getParameter(String) is undefined for the type HttpSession
+28:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);         
+29:             String username = (String) sso.getAttribute("username");
+30:             String type = (String) sso.getAttribute("type");
+31:             String targetUser = (String) sso.getParameter("target");
+32:             String teamName = (String) request.getParameter("teamname");
+33:             String orgName = (String) request.getParameter("orgname");
+34: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 00:36:13.103 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/create_post.jsp]
+Duplicate local variable orgName
+18:             Class.forName("com.mysql.jdbc.Driver");
+19:             con = DriverManager.getConnection(dbURL, user, password);
+20:             String postContent = request.getParameter("postContent");
+21:             String orgName = request.getParameter("orgname");
+22:             if(postContent != null && !postContent.trim().isEmpty()) {
+23:             
+24:                 String sql = "INSERT INTO posts (body, orgname) VALUES (?, ?)";
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/create_post.jsp]
+Duplicate local variable orgName
+18:             Class.forName("com.mysql.jdbc.Driver");
+19:             con = DriverManager.getConnection(dbURL, user, password);
+20:             String postContent = request.getParameter("postContent");
+21:             String orgName = request.getParameter("orgname");
+22:             if(postContent != null && !postContent.trim().isEmpty()) {
+23:             
+24:                 String sql = "INSERT INTO posts (body, orgname) VALUES (?, ?)";
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 00:54:44.344 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [101] in the jsp file: [/view_student_organization.jsp]
+eventDate cannot be resolved to a variable
+98:                     while (rsEvents.next()){
+99:                         String eventName = rsEvents.getString(1);
+100:                         String evenDate = rsEvents.getString(2);
+101:                         out.println("------------------<br>"+ eventName + "<br>" + eventDate+ "<br>------------------<br>");
+102:                     }      
+103:                 %>
+104:                     <%@include file="create_team.jsp" %>
+
+
+An error occurred at line: [127] in the jsp file: [/view_student_organization.jsp]
+eventDate cannot be resolved to a variable
+124:                     while (rsEvents.next()){
+125:                         String eventName = rsEvents.getString(1);
+126:                         String evenDate = rsEvents.getString(2);
+127:                         out.println("------------------<br>"+ eventName + "<br>" + eventDate+ "<br>------------------<br>");
+128:                     }      
+129:                 }
+130:             ps.close();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [101] in the jsp file: [/view_student_organization.jsp]
+eventDate cannot be resolved to a variable
+98:                     while (rsEvents.next()){
+99:                         String eventName = rsEvents.getString(1);
+100:                         String evenDate = rsEvents.getString(2);
+101:                         out.println("------------------<br>"+ eventName + "<br>" + eventDate+ "<br>------------------<br>");
+102:                     }      
+103:                 %>
+104:                     <%@include file="create_team.jsp" %>
+
+
+An error occurred at line: [127] in the jsp file: [/view_student_organization.jsp]
+eventDate cannot be resolved to a variable
+124:                     while (rsEvents.next()){
+125:                         String eventName = rsEvents.getString(1);
+126:                         String evenDate = rsEvents.getString(2);
+127:                         out.println("------------------<br>"+ eventName + "<br>" + eventDate+ "<br>------------------<br>");
+128:                     }      
+129:                 }
+130:             ps.close();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 01:02:13.028 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/create_events.jsp]
+next cannot be resolved or is not a field
+28:             pstmt.setString(2, eventDate);
+29:             pstmt.setString(3, orgName);
+30:             ResultSet rsCheck = pstmt.executeQuery();
+31:             if (!rsCheck.next){
+32:                 if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+33:                         sql = "INSERT INTO events (eventname, eventdate, orgname) VALUES (?, ?, ?)";
+34:                         pstmt = con.prepareStatement(sql);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/create_events.jsp]
+next cannot be resolved or is not a field
+28:             pstmt.setString(2, eventDate);
+29:             pstmt.setString(3, orgName);
+30:             ResultSet rsCheck = pstmt.executeQuery();
+31:             if (!rsCheck.next){
+32:                 if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+33:                         sql = "INSERT INTO events (eventname, eventdate, orgname) VALUES (?, ?, ?)";
+34:                         pstmt = con.prepareStatement(sql);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 01:04:01.104 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [28] in the jsp file: [/create_events.jsp]
+rsCheck.next cannot be resolved to a type
+25: 
+26: 
+27:             if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+28:                 if (!rsCheck.next){
+29:                     String sql = "SELECT * FROM WHERE eventname = ?, evendate = ? AND orgname = ?";
+30:                     pstmt = con.prepareStatement(sql);
+31:                     pstmt.setString(1, eventName);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [28] in the jsp file: [/create_events.jsp]
+rsCheck.next cannot be resolved to a type
+25: 
+26: 
+27:             if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+28:                 if (!rsCheck.next){
+29:                     String sql = "SELECT * FROM WHERE eventname = ?, evendate = ? AND orgname = ?";
+30:                     pstmt = con.prepareStatement(sql);
+31:                     pstmt.setString(1, eventName);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 01:04:09.049 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [28] in the jsp file: [/create_events.jsp]
+rsCheck cannot be resolved
+25: 
+26: 
+27:             if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+28:                 if (!rsCheck.next()){
+29:                     String sql = "SELECT * FROM WHERE eventname = ?, evendate = ? AND orgname = ?";
+30:                     pstmt = con.prepareStatement(sql);
+31:                     pstmt.setString(1, eventName);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [28] in the jsp file: [/create_events.jsp]
+rsCheck cannot be resolved
+25: 
+26: 
+27:             if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+28:                 if (!rsCheck.next()){
+29:                     String sql = "SELECT * FROM WHERE eventname = ?, evendate = ? AND orgname = ?";
+30:                     pstmt = con.prepareStatement(sql);
+31:                     pstmt.setString(1, eventName);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 01:04:48.440 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [28] in the jsp file: [/create_events.jsp]
+rsCheck cannot be resolved
+25: 
+26: 
+27:             if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+28:                 if (!rsCheck.next()){
+29:                     String sql = "SELECT * FROM WHERE eventname = ?, evendate = ? AND orgname = ?";
+30:                     pstmt = con.prepareStatement(sql);
+31:                     pstmt.setString(1, eventName);
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [28] in the jsp file: [/create_events.jsp]
+rsCheck cannot be resolved
+25: 
+26: 
+27:             if(eventName != null && eventDate != null && !eventName.trim().isEmpty() && !eventDate.trim().isEmpty()) {
+28:                 if (!rsCheck.next()){
+29:                     String sql = "SELECT * FROM WHERE eventname = ?, evendate = ? AND orgname = ?";
+30:                     pstmt = con.prepareStatement(sql);
+31:                     pstmt.setString(1, eventName);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 01:13:40.411 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/delete_post.jsp]
+Cannot cast from String to int
+28:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);         
+29:             String username = (String) sso.getAttribute("username");
+30:             String type = (String) sso.getAttribute("type");
+31:             int postid = (int) request.getParameter("postid");
+32:             String orgName = (String) request.getParameter("orgname");
+33: 
+34:             if (username != null && type == "student"){
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/delete_post.jsp]
+Cannot cast from String to int
+28:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);         
+29:             String username = (String) sso.getAttribute("username");
+30:             String type = (String) sso.getAttribute("type");
+31:             int postid = (int) request.getParameter("postid");
+32:             String orgName = (String) request.getParameter("orgname");
+33: 
+34:             if (username != null && type == "student"){
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 01:14:46.918 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/delete_post.jsp]
+The method parseInt(String) is undefined for the type delete_005fpost_jsp
+28:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);         
+29:             String username = (String) sso.getAttribute("username");
+30:             String type = (String) sso.getAttribute("type");
+31:             int postid = parseInt(request.getParameter("postid"));
+32:             String orgName = (String) request.getParameter("orgname");
+33: 
+34:             if (username != null && type == "student"){
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/delete_post.jsp]
+The method parseInt(String) is undefined for the type delete_005fpost_jsp
+28:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);         
+29:             String username = (String) sso.getAttribute("username");
+30:             String type = (String) sso.getAttribute("type");
+31:             int postid = parseInt(request.getParameter("postid"));
+32:             String orgName = (String) request.getParameter("orgname");
+33: 
+34:             if (username != null && type == "student"){
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

@@ -31,7 +31,10 @@
                 } else {
                     out.println("<p>An error occurred while creating the post</p>");
                 }
+                String redirectURL = "http://localhost:8080/SOT/view_student_organization.jsp?orgname="+orgName;
+                response.sendRedirect(redirectURL);
             }
+
         } catch(SQLException e) {
             out.println("<p>SQLException caught: " + e.getMessage() + "</p>");
         } catch(ClassNotFoundException e) {
