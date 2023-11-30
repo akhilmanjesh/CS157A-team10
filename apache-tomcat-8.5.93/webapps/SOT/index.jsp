@@ -76,9 +76,9 @@
             <h2>Your Organizations</h2>
                 <%
                 if (type == "student") {
-                    sql = "SELECT orgname FROM studentleads WHERE username = ?";
+                    sql = "SELECT orgname FROM memberofstudent WHERE username = ?";
                 } else {
-                    sql = "SELECT orgname FROM companyleads WHERE username = ?";
+                    sql = "SELECT orgname FROM membersofcompany WHERE username = ?";
                 }     
                 pstmt = con.prepareStatement(sql);
                 pstmt.setString(1, username);

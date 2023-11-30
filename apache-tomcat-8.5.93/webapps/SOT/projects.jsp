@@ -22,6 +22,8 @@
     </head>
     <body>
         <%@include file="navbar.jsp"%>
+        <div class="row justify-content-center">
+            <div class = "col-8 p-3 mb-2 bg-light text-dark">
         <hr class="featurette-divider">
         <div class="container-fluid">
             <div class="row">
@@ -253,6 +255,8 @@
             }
         }
         %>
+        </div>
+        </div>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

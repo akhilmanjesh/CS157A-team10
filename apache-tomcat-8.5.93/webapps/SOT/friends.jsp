@@ -65,6 +65,11 @@
                         pstmt.setString(1, loggedInUser);
                         pstmt.setString(2, friendUsername);
                         pstmt.executeUpdate();
+                        %>
+                            <div class="alert alert-success" role="alert">
+                                <p>Friend Request Sent</p>
+                            </div>
+                        <%             
                         } else {
                             throw new SQLException("Users are already friends or pending.");
                         }

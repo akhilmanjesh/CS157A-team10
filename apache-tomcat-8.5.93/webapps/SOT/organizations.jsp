@@ -23,8 +23,8 @@
 
         %>
         <div class = "row justify-content-center">
-            <div class = "col-6"><h3>Organizations</h3></div>
-            <div class = "col-2">
+            <div class = "col-6 p-3 mb-2 bg-light text-dark"><h3>Organizations</h3></div>
+            <div class = "col-2 p-3 mb-2 bg-light text-dark">
                 <div class = "text-end">
             <%
             sso = request.getSession(false);
@@ -53,7 +53,7 @@
         </div>
         </div>
             <div class = "row justify-content-center">
-            <div class = "col-8">
+            <div class = "col-8 p-3 mb-2 bg-light text-dark">
         <%
         try {
             Class.forName("com.mysql.jdbc.Driver");
