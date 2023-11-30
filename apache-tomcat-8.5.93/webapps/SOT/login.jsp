@@ -2,7 +2,7 @@
 <%@ page import="org.mindrot.jbcrypt.BCrypt" %>
 <%@ page import="javax.servlet.http.*" %>
 <%@ page import="java.util.UUID" %>
-<%@include file="index.jsp" %>
+<%@include file="navbar.jsp" %>
 
 <html>
   <head>

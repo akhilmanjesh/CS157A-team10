@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        <%@include file="navbar.jsp" %>
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -20,7 +20,7 @@
         String password = props.getProperty("db.password");
         Connection con = null;
         try {
-            HttpSession sso = request.getSession(false);
+            sso = request.getSession(false);
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
             String username = (String) sso.getAttribute("username");

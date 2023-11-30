@@ -652,3 +652,1428 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 14:43:50.313 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2023 14:43:50.313 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2023 14:43:50.314 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18067689')
+29-Nov-2023 15:26:57.993 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+h1 cannot be resolved to a type
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Constructor call must be the first statement in a constructor
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Welcome cannot be resolved to a type
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error on token "Organization", invalid AssignmentOperator
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [15] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+h1 cannot be resolved to a type
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Constructor call must be the first statement in a constructor
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Welcome cannot be resolved to a type
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error on token "Organization", invalid AssignmentOperator
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+11:     %>
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+
+
+An error occurred at line: [15] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+12:         <%@include file="navbar.jsp"%>
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+13:     <%
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 15:27:15.255 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on token "file", VariableDeclaratorId expected after this token
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+file cannot be resolved to a type
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+sso cannot be resolved to a variable
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+
+
+An error occurred at line: [17] in the jsp file: [/index.jsp]
+sso cannot be resolved
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+sso cannot be resolved
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+
+
+An error occurred at line: [19] in the jsp file: [/index.jsp]
+sso cannot be resolved
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+22:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on token "file", VariableDeclaratorId expected after this token
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+file cannot be resolved to a type
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp"%>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+sso cannot be resolved to a variable
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+
+
+An error occurred at line: [17] in the jsp file: [/index.jsp]
+sso cannot be resolved
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+sso cannot be resolved
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+
+
+An error occurred at line: [19] in the jsp file: [/index.jsp]
+sso cannot be resolved
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+22:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 15:28:24.324 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on token "file", VariableDeclaratorId expected after this token
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+file cannot be resolved to a type
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+sso cannot be resolved to a variable
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+
+
+An error occurred at line: [17] in the jsp file: [/index.jsp]
+sso cannot be resolved
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+sso cannot be resolved
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+
+
+An error occurred at line: [19] in the jsp file: [/index.jsp]
+sso cannot be resolved
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+22:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error on token "file", VariableDeclaratorId expected after this token
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+file cannot be resolved to a type
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9: </head>
+10: <body>
+11:     <%
+12:         <%@include file="navbar.jsp" %>
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+sso cannot be resolved to a variable
+13:     %>
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+
+
+An error occurred at line: [17] in the jsp file: [/index.jsp]
+sso cannot be resolved
+14:     <h1>Welcome to SOT: Student Organization Tasker</h1>
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+sso cannot be resolved
+15:     <% 
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+
+
+An error occurred at line: [19] in the jsp file: [/index.jsp]
+sso cannot be resolved
+16:         sso = request.getSession(false);
+17:         if (sso.getAttribute("username") != null){
+18:             out.println("Greetings " + sso.getAttribute("username") + "!");
+19:             out.println("Account type " + sso.getAttribute("type") + "!");
+20:         }
+21:     %>
+22:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:00:46.111 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/posts.jsp]
+Duplicate local variable sso
+20:         String password = props.getProperty("db.password");
+21:         Connection con = null;
+22:         try {
+23:             HttpSession sso = request.getSession(false);
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+26:             String username = (String) sso.getAttribute("username");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/posts.jsp]
+Duplicate local variable sso
+20:         String password = props.getProperty("db.password");
+21:         Connection con = null;
+22:         try {
+23:             HttpSession sso = request.getSession(false);
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+26:             String username = (String) sso.getAttribute("username");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:00:52.031 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/posts.jsp]
+Duplicate local variable sso
+20:         String password = props.getProperty("db.password");
+21:         Connection con = null;
+22:         try {
+23:             HttpSession sso = request.getSession(false);
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+26:             String username = (String) sso.getAttribute("username");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/posts.jsp]
+Duplicate local variable sso
+20:         String password = props.getProperty("db.password");
+21:         Connection con = null;
+22:         try {
+23:             HttpSession sso = request.getSession(false);
+24:             Class.forName("com.mysql.jdbc.Driver");
+25:             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+26:             String username = (String) sso.getAttribute("username");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:06:11.801 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/projects.jsp]
+Duplicate local variable sso
+38:         </div>
+39: 
+40:         <%
+41:             HttpSession sso = request.getSession(false);
+42:             if(sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff") {
+43:                 %> <a href="create_project.jsp"><button>Create Project</button></a> <%
+44:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/projects.jsp]
+Duplicate local variable sso
+38:         </div>
+39: 
+40:         <%
+41:             HttpSession sso = request.getSession(false);
+42:             if(sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff") {
+43:                 %> <a href="create_project.jsp"><button>Create Project</button></a> <%
+44:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:10:25.310 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/organizations.jsp]
+Duplicate local variable sso
+12:         <%@include file="navbar.jsp" %>
+13:         
+14:         <%
+15:         HttpSession sso = request.getSession(false);
+16:         if (sso.getAttribute("username") != null){
+17:         %>
+18:             <%@include file="create_org.jsp" %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/organizations.jsp]
+Duplicate local variable sso
+12:         <%@include file="navbar.jsp" %>
+13:         
+14:         <%
+15:         HttpSession sso = request.getSession(false);
+16:         if (sso.getAttribute("username") != null){
+17:         %>
+18:             <%@include file="create_org.jsp" %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:12:55.519 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2023 18:12:55.520 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2023 18:12:55.521 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@24ca83dd')
+29-Nov-2023 18:18:50.821 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [35] in the jsp file: [/events.jsp]
+The method setString(int, String) is undefined for the type Statement
+32:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+33:                 String sql = "SELECT EventName, orgName, evenDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+34:                 Statement pstmt = con.prepareStatement(sql);
+35:                 pstmt.setString(1, username);
+36:                 ResultSet rs = pstmt.executeQuery();
+37: 
+38:                 while (rs.next()) {
+
+
+An error occurred at line: [36] in the jsp file: [/events.jsp]
+The method executeQuery(String) in the type Statement is not applicable for the arguments ()
+33:                 String sql = "SELECT EventName, orgName, evenDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+34:                 Statement pstmt = con.prepareStatement(sql);
+35:                 pstmt.setString(1, username);
+36:                 ResultSet rs = pstmt.executeQuery();
+37: 
+38:                 while (rs.next()) {
+39:                     String eventName = rs.getString("EventName");
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+stmt cannot be resolved
+51:                 }
+52: 
+53:                 rs.close();
+54:                 stmt.close();
+55:             } catch (SQLException e) {
+56:                 out.println("SQLException caught: " + e.getMessage()); 
+57:             } finally {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [35] in the jsp file: [/events.jsp]
+The method setString(int, String) is undefined for the type Statement
+32:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+33:                 String sql = "SELECT EventName, orgName, evenDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+34:                 Statement pstmt = con.prepareStatement(sql);
+35:                 pstmt.setString(1, username);
+36:                 ResultSet rs = pstmt.executeQuery();
+37: 
+38:                 while (rs.next()) {
+
+
+An error occurred at line: [36] in the jsp file: [/events.jsp]
+The method executeQuery(String) in the type Statement is not applicable for the arguments ()
+33:                 String sql = "SELECT EventName, orgName, evenDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+34:                 Statement pstmt = con.prepareStatement(sql);
+35:                 pstmt.setString(1, username);
+36:                 ResultSet rs = pstmt.executeQuery();
+37: 
+38:                 while (rs.next()) {
+39:                     String eventName = rs.getString("EventName");
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+stmt cannot be resolved
+51:                 }
+52: 
+53:                 rs.close();
+54:                 stmt.close();
+55:             } catch (SQLException e) {
+56:                 out.println("SQLException caught: " + e.getMessage()); 
+57:             } finally {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:19:13.030 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/events.jsp]
+PreparedStatementStatement cannot be resolved to a type
+31:                 Class.forName("com.mysql.jdbc.Driver");
+32:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+33:                 String sql = "SELECT EventName, orgName, evenDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+34:                 PreparedStatementStatement pstmt = con.prepareStatement(sql);
+35:                 pstmt.setString(1, username);
+36:                 ResultSet rs = pstmt.executeQuery();
+37: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+stmt cannot be resolved
+51:                 }
+52: 
+53:                 rs.close();
+54:                 stmt.close();
+55:             } catch (SQLException e) {
+56:                 out.println("SQLException caught: " + e.getMessage()); 
+57:             } finally {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/events.jsp]
+PreparedStatementStatement cannot be resolved to a type
+31:                 Class.forName("com.mysql.jdbc.Driver");
+32:                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+33:                 String sql = "SELECT EventName, orgName, evenDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+34:                 PreparedStatementStatement pstmt = con.prepareStatement(sql);
+35:                 pstmt.setString(1, username);
+36:                 ResultSet rs = pstmt.executeQuery();
+37: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+stmt cannot be resolved
+51:                 }
+52: 
+53:                 rs.close();
+54:                 stmt.close();
+55:             } catch (SQLException e) {
+56:                 out.println("SQLException caught: " + e.getMessage()); 
+57:             } finally {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:19:19.249 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+stmt cannot be resolved
+51:                 }
+52: 
+53:                 rs.close();
+54:                 stmt.close();
+55:             } catch (SQLException e) {
+56:                 out.println("SQLException caught: " + e.getMessage()); 
+57:             } finally {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+stmt cannot be resolved
+51:                 }
+52: 
+53:                 rs.close();
+54:                 stmt.close();
+55:             } catch (SQLException e) {
+56:                 out.println("SQLException caught: " + e.getMessage()); 
+57:             } finally {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+29-Nov-2023 18:20:24.330 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SOT] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [52] in the jsp file: [/events.jsp]
+Syntax error on tokens, Expression expected instead
+49:                     </div>
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+
+
+An error occurred at line: [52] in the jsp file: [/events.jsp]
+Syntax error on tokens, Expression expected instead
+49:                     </div>
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+
+
+An error occurred at line: [52] in the jsp file: [/events.jsp]
+Syntax error on token(s), misplaced construct(s)
+49:                     </div>
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+
+
+An error occurred at line: [53] in the jsp file: [/events.jsp]
+Syntax error on token(s), misplaced construct(s)
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on tokens, delete these tokens
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on token "more", ; expected
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on token "/", delete this token
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on tokens, delete these tokens
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [56] in the jsp file: [/events.jsp]
+Syntax error, insert "Identifier ( )" to complete MethodInvocation
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+58:                 rs.close();
+59:                 pstmt.close();
+
+
+An error occurred at line: [56] in the jsp file: [/events.jsp]
+Syntax error, insert ";" to complete Statement
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+58:                 rs.close();
+59:                 pstmt.close();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [52] in the jsp file: [/events.jsp]
+Syntax error on tokens, Expression expected instead
+49:                     </div>
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+
+
+An error occurred at line: [52] in the jsp file: [/events.jsp]
+Syntax error on tokens, Expression expected instead
+49:                     </div>
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+
+
+An error occurred at line: [52] in the jsp file: [/events.jsp]
+Syntax error on token(s), misplaced construct(s)
+49:                     </div>
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+
+
+An error occurred at line: [53] in the jsp file: [/events.jsp]
+Syntax error on token(s), misplaced construct(s)
+50:                     <%
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on tokens, delete these tokens
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on token "more", ; expected
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on token "/", delete this token
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [54] in the jsp file: [/events.jsp]
+Syntax error on tokens, delete these tokens
+51:                 }
+52:                 <div class="card">
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+
+
+An error occurred at line: [56] in the jsp file: [/events.jsp]
+Syntax error, insert "Identifier ( )" to complete MethodInvocation
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+58:                 rs.close();
+59:                 pstmt.close();
+
+
+An error occurred at line: [56] in the jsp file: [/events.jsp]
+Syntax error, insert ";" to complete Statement
+53:                         <div class="card-body">
+54:                             <h5 class="card-title">No more events.</h5>
+55:                         </div>
+56:                    </div>
+57: 
+58:                 rs.close();
+59:                 pstmt.close();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1694)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
