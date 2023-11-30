@@ -98,6 +98,10 @@
 
                 companyLeadsRS.close();
                 companyLeadsPs.close();
+                String reviewsQuery = "SELECT Author, review FROM reviews WHERE projectid = ?";
+                PreparedStatement reviewsPs = con.prepareStatement(reviewsQuery);
+                reviewsPs.setInt(1, projectId);
+                ResultSet reviewsRs = reviewsPs.executeQuery();
                 %>
                 <div class ="card">
                     <div class="card-body">
@@ -193,6 +197,20 @@
                                     ps.close();
                                 }
                                 %>
+                                <div class="modal-body">
+                                    <h5>Reviews:</h5>
+                                    <% while(reviewsRs.next()) { %>
+                                        <div class="review">
+                                            <strong><%= reviewsRs.getString("Author") %>:</strong>
+                                            <p><%= reviewsRs.getString("review") %></p>
+                                        </div>
+                                    <% } %>
+                                </div>
+                                <%
+                                    reviewsRs.close();
+                                    reviewsPs.close();
+                                %>
+                                
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
