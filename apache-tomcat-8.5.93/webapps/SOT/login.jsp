@@ -9,19 +9,54 @@
     <title>Login Page</title>
   </head>
   <body>
-    <form action= "<%= request.getContextPath()%>/login.jsp" method = "post">
-      <p>Please Login.</p>
-  
-        
-      <label for="username"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="username" id="username" required>
 
-  
-      <label for="pass"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="pass" id="pass" required>
+  <section class="vh-100" style="background-color: #eee;">
+    <div class="container h-50">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-12 col-xl-11">
+          <div class="card text-black" style="border-radius: 25px;">
+            <div class="card-body p-md-5">
+                <div class= "row d-flex">
+                  <div class="col-md-6 align-self-center offset-md-1">
+                    <div class = "img-container">
+                      <img src="./login_image.jpg" style="width=300px"
+                      class="img-fluid" alt="Sample image">
+                    </div>
+                  </div>
+                  <div class= "col-md-4 align-self-start">
+                    <form action= "<%= request.getContextPath()%>/login.jsp" method = "post">
+                      <p>Please Login.</p>
 
-      <button type="submit" class="loginbtn">Login</button>
-    </form>
+                  <div class = "row d-flex">
+                    <div class = "col-md-4 align-self-start">
+                      <label for="username"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="username" id="username" required>
+                    </div>
+                  </div>       
+                  <div class = "row d-flex">
+                    <div class = "col-md-4 align-self-start">
+                      <label for="pass"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="pass" id="pass" required>
+                    </div>
+                  </div>
+                  <div class = "row d-flex justify-content-end">
+                    <div class = "col-md-2 allign-self-end">
+                      <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                  </div>              
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
     <% 
      String db = "sot";

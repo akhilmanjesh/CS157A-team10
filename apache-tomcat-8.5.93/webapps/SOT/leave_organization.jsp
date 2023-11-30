@@ -42,6 +42,11 @@
                     ps2.setString(1, username);
                     ps2.setString(2, orgName);
                     int rowsAffected = ps2.executeUpdate();
+                    query2 = "DELETE FROM assignedTo WHERE username = ? and orgname = ?";
+                    ps2 = con.prepareStatement(query2);
+                    ps2.setString(1, username);
+                    ps2.setString(2, orgName);
+                    rowsAffected = ps2.executeUpdate();
                     ps2.close();
                 }
                 rs1.close();

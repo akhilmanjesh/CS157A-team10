@@ -10,38 +10,56 @@
     <title>Create Project Page</title>
   </head>
   <body>
-    <h3>Create Organization</h3>
-    <form action="organizations.jsp" method="post"> 
-        <p>Please fill in this form to create an organization.</p>
-
-        <label for="orgName"><b>Organization Name</b></label>
-        <input type="text" placeholder="Enter Organization Name" name="orgName" id="orgName" required>
-
-        <div id="schoolNameContainer" style="display:none;">
-            <label for="schoolName"><b>School Name</b></label>
-            <input type="text" placeholder="Enter School Name" name="schoolName" id="schoolName">
-        </div>
-
-        <button type="submit" class="createOrgBtn">Create Organization</button>
-    </form>
-
-   <%
-        sso = request.getSession(false);
-
+<%
         String orgType = null;
         if (sso.getAttribute("type").equals("student")){
             orgType = "student";
         } else if (sso.getAttribute("type").equals("companystaff")){
             orgType = "companystaff";
         }
+        out.println(orgType);
+%>
+
+    <div class ="text-start">
+    <form action="organizations.jsp" method="post"> 
+        <p>Please fill in this form to create an organization.</p>
+
+        <div class=col-md-5>
+        <label for="orgName"><b>Organization Name</b></label>
+        <input type="text" placeholder="Enter Organization Name" name="orgName" id="orgName" required>
+
+        <div id="schoolNameContainer" style="display:block;">
+            <label for="schoolName"><b>School Name</b></label>
+            <input type="text" placeholder="Enter School Name" name="schoolName" id="schoolName">
+        </div>
+        </div>
+        <div class ="text-end" style="margin-top:20px">
+        <button type="submit" class="btn btn-primary">Create Organization</button>
+        </div>
+    </form>
+
+    <script>
+            function hideSchool(){
+                var orgType = "<%=orgType%>";
+                console.log(orgType);
+                if (orgType === 'student'){
+                    schoolNameContainer.style.display = 'block';
+                } else {
+                    schoolNameContainer.style.display = 'none';
+                }
+            }
+            hideSchool();
+        </script>
+    </div>
+   <%
+
+
         String schoolName = request.getParameter("schoolName");
         String orgName = request.getParameter("orgName");
         String username = (String) sso.getAttribute("username");
 
         String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
-        String user = "root";
-        String password = "1723";
-        Connection con = null;
+
         PreparedStatement pstmt = null;     //Insert into Org Table
         PreparedStatement pstmt2 = null;    //Insert into leader table
         PreparedStatement pstmt3 = null;    //Insert into members table
@@ -89,6 +107,8 @@
                 int rowsAffected3 = pstmt3.executeUpdate();
                 if(rowsAffected > 0 && rowsAffected2 > 0 && rowsAffected3 > 0) {
                     out.println("<p>Organization created successfully</p>");
+                    String redirectURL = "http://localhost:8080/SOT/organizations.jsp";
+                    response.sendRedirect(redirectURL);
                 } else {
                     out.println("<p>An error occurred</p>");
                 }
@@ -114,5 +134,6 @@
             }
         }
     %>
+
   </body>
 </html>
