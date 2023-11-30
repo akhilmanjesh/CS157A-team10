@@ -9,10 +9,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        <%@include file="navbar.jsp" %>
         
         <%
-        HttpSession sso = request.getSession(false);
+        sso = request.getSession(false);
         if (sso.getAttribute("username") != null){
         %>
             <%@include file="create_org.jsp" %>

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        <%@include file="navbar.jsp" %>
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -34,7 +34,6 @@
                 deleteStmt.close();
             }
 
-            HttpSession sso = request.getSession(false);
             String username = (String) sso.getAttribute("username");
             if (username == null){
                 out.println("Login to view posts.");

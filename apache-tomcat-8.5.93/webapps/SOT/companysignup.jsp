@@ -1,6 +1,6 @@
 <%@ page import="java.sql.*"%>
 <%@ page import="org.mindrot.jbcrypt.BCrypt" %>
-<%@include file="index.jsp" %>
+<%@include file="navbar.jsp" %>
 <html>
   <head>
     <title>Signup Page</title>

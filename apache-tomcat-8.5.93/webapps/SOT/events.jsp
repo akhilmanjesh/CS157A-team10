@@ -9,7 +9,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+        <%@include file="navbar.jsp"%>
+        <hr class="featurette-divider">
+        <h3> Events </h3>
 
         <%
         String db = "sot";
@@ -22,14 +24,16 @@
 
             String user = props.getProperty("db.username");
             String password = props.getProperty("db.password");
+            String username = (String) sso.getAttribute("username");
             
             Connection con = null;
             try {
                 Class.forName("com.mysql.jdbc.Driver");
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
-
-                Statement stmt = con.createStatement();
-                ResultSet rs = stmt.executeQuery("SELECT EventName, orgName, EventDate FROM events");
+                String sql = "SELECT EventName, orgName, eventDate FROM events WHERE orgName IN (SELECT orgName FROM memberofstudent WHERE username = ?)";
+                PreparedStatement pstmt = con.prepareStatement(sql);
+                pstmt.setString(1, username);
+                ResultSet rs = pstmt.executeQuery();
 
                 while (rs.next()) {
                     String eventName = rs.getString("EventName");
@@ -45,9 +49,15 @@
                     </div>
                     <%
                 }
-
+                %>
+                <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">No more events.</h5>
+                        </div>
+                   </div>
+                <%
                 rs.close();
-                stmt.close();
+                pstmt.close();
             } catch (SQLException e) {
                 out.println("SQLException caught: " + e.getMessage()); 
             } finally {

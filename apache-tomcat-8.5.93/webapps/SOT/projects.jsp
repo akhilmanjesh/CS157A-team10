@@ -21,10 +21,12 @@
         </style>
     </head>
     <body>
+        <%@include file="navbar.jsp"%>
+        <hr class="featurette-divider">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6">
-                    <a href="http://localhost:8080/SOT/index.jsp"><H1>Home</H1></a>
+                    <h3> Projects</h3>
                 </div>
                 <div class="col-6">
                     <form class="form-inline" method="post" action="">
@@ -38,7 +40,7 @@
         </div>
 
         <%
-            HttpSession sso = request.getSession(false);
+            sso = request.getSession(false);
             if(sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff") {
                 %> <a href="create_project.jsp"><button>Create Project</button></a> <%
             }
