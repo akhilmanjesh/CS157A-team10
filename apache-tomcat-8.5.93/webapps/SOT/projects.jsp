@@ -134,16 +134,31 @@
                             <div class="modal-body">
                                 <ul class="list-group">
                                     <%
-                                    String checkJoinedQuery = "SELECT * FROM workson WHERE projectid = ?";
+                                    String checkJoinedQuery = "SELECT * FROM teams NATURAL JOIN workson NATURAL JOIN studentleads WHERE projectid = ?";
                                     PreparedStatement checkJoinPs = con.prepareStatement(checkJoinedQuery);
                                     checkJoinPs.setInt(1, projectId);
                                     ResultSet joinedRs = checkJoinPs.executeQuery();
                                     while(joinedRs.next()) {
                                         String joinedOrgName = joinedRs.getString(1);
                                         String joinedTeamName = joinedRs.getString(2);
+                                        String joinedTeamOrgLeader = joinedRs.getString(4);
                                         %>
-                                        <li class="list-group-item"><strong><%= joinedOrgName %></strong> - <%= joinedTeamName %></li>
+                                        <div class="list-group-item d-flex justify-content-between">
+                                            <div>
+                                                <strong><%= joinedOrgName %></strong> - <%= joinedTeamName %></li>
+                                            </div>
                                         <%
+                                        if(joinedTeamOrgLeader.equals(username)) { %>
+                                            <form method="post" action="removeTeam.jsp">
+                                                <input type="hidden" name="teamName" value="<%= joinedTeamName %>">
+                                                <input type="hidden" name="orgName" value="<%= joinedOrgName %>">
+                                                <input type="hidden" name="projectId" value="<%= projectId %>">
+                                                <button type="submit" class="btn btn-danger">Remove</button>
+                                            </form>
+                                        <%    
+                                        } %>
+                                        </div>
+                                    <%    
                                     }
 
                                     joinedRs.close();
@@ -162,7 +177,7 @@
                                     while(leaderRS.next()) {
                                         String leaderOrgName = leaderRS.getString("orgname");
 
-                                        String teamsQuery = "SELECT * FROM teams WHERE orgname = ? AND teamname NOT IN (SELECT teamname FROM workson WHERE projectid = ?)";
+                                        String teamsQuery = "SELECT * FROM teams WHERE orgname = ? AND (orgname, teamname) NOT IN (SELECT orgname, teamname FROM workson WHERE projectid = ?)";
                                         PreparedStatement teamsPs = con.prepareStatement(teamsQuery);
                                         teamsPs.setString(1, leaderOrgName);
                                         teamsPs.setInt(2, projectId);
