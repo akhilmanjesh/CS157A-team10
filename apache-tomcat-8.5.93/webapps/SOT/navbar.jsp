@@ -41,7 +41,7 @@
                     if (sso.getAttribute("username") != null){
                         %>     
                         <li class="nav-item">
-                            <a class="nav-link" href="settings.jsp">Settings</a>
+                            <a class="nav-link" href="friends.jsp">Friends</a>
                         </li>           
                         <li class="nav-item">
                             <a class="nav-link" href="logout.jsp">Logout</a>

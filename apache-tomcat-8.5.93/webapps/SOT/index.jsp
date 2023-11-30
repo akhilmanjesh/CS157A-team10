@@ -1,4 +1,6 @@
 <%@ page import="java.sql.*"%>
+<%@ page import="java.util.Properties"%>
+<%@ page import="java.io.InputStream"%>  
 
 <!DOCTYPE html>
 <html>
@@ -8,12 +10,114 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
         <%@include file="navbar.jsp" %>
         <%
         sso = request.getSession(false);
         if (sso.getAttribute("username") != null){
-            out.println("Greetings " + sso.getAttribute("username") + "!");
-            out.println("Account type " + sso.getAttribute("type") + "!");
+            String db = "sot";
+            Properties props = new Properties();
+            InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+            props.load(input);
+            input.close();
+            String user = props.getProperty("db.username");
+            String password = props.getProperty("db.password");
+            Connection con = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+            String username = (String) sso.getAttribute("username");       
+            String type = (String) sso.getAttribute("type");
+        %>
+            <div class="jumbotron" style="background-color:#b1b7c1;">
+                <div class="text-center">
+                    <h1 class="display-4" style="padding-top:75px">Hello, <%=sso.getAttribute("username")%>!</h1>
+                    <p class="lead" style="padding-bottom:75px">Welcome to Student Organized Tracker.</p>
+                    <hr class="my-4">
+                </div>
+            </div>
+        <style>
+        </style>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="text-center">
+            <h2>Your Friends</h2>
+            <%
+                String sql = "(SELECT * from friends WHERE user1 = ? AND pending = 0 OR user2 = ? AND pending = 0)";
+                PreparedStatement pstmt = con.prepareStatement(sql);
+                pstmt.setString(1, username);
+                pstmt.setString(2, username);
+                ResultSet rs = pstmt.executeQuery();
+                while(rs.next()){
+                    if (!rs.getString(1).equals(username)){
+                        %>
+                        <div class ="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><%=rs.getString(1)%></h5>
+                            </div>
+                        </div> 
+                        <%
+
+                    } else {
+                        %>
+                        <div class ="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><%=rs.getString(2)%></h5>
+                            </div>
+                        </div> 
+                        <%
+                    }
+                }
+            %>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="text-center">
+            <h2>Your Organizations</h2>
+                <%
+                if (type == "student") {
+                    sql = "SELECT orgname FROM studentleads WHERE username = ?";
+                } else {
+                    sql = "SELECT orgname FROM companyleads WHERE username = ?";
+                }     
+                pstmt = con.prepareStatement(sql);
+                pstmt.setString(1, username);
+                rs = pstmt.executeQuery();
+                while (rs.next()){
+                    if (type == "student"){
+                        %>
+                            <div class ="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="view_student_organization.jsp?orgname=<%=rs.getString(1)%>"><%=rs.getString(1)%></a></h5>
+                                </div>
+                            </div>          
+                        <%
+                    } else {
+                        %>
+                            <div class ="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="view_company_organization.jsp?orgname=<%=rs.getString(1)%>"><%=rs.getString(1)%></a></h5>
+                                </div>
+                            </div>     
+                        <%
+                    }                 
+                }
+                %>
+            </div>
+          </div>
+        </div>
+        <%
+        } catch(SQLException e) {
+                out.println(e.getMessage()); 
+            } finally {
+                if (con != null) {
+                    try {
+                        con.close();
+                    } catch (SQLException e) {
+                        out.println("SQLException caught: " + e.getMessage());
+                    }
+                }
+        }
         } else {
         %>
         <style>
@@ -109,13 +213,9 @@
                     </div>
                 </div>
         </div>
-    <%}%>
     <br>
 
-    <!--Footer-->
-    <div class="d-flex justify-content-center" style = "background-color: rgba(0, 0, 0, 0.2);">
-    <h5>CS157A Team #10</h5>
-    </div>
+    <%}%>
 
 </body>
 </html>

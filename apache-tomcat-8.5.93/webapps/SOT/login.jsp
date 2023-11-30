@@ -41,22 +41,22 @@
                   </div>
                   <div class = "row d-flex justify-content-end">
                     <div class = "col-md-2 allign-self-end">
-                      <button type="submit" class="btn btn-primary">Login</button>
+                      <button type="submit" class="btn btn-primary">Login</button><br><p></p>
                     </div>
                   </div>              
                     </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
 
+  <style>
+    .alert alert-danger{
+      top:300px;
+      left:0;
+      right:0;
+      bottom:0;
+      margin-bottom:500px;
+    }
+  </style>
 
     <% 
      String db = "sot";
@@ -101,15 +101,32 @@
                     String redirectURL = "http://localhost:8080/SOT/index.jsp";
                     response.sendRedirect(redirectURL);                   
                 } else {
-                    out.println("Invalid Username or Password.");
+                  %>
+                  <div class="alert alert-danger" role="alert">
+                    Invalid Username or Password.
+                  </div>
+                  <%
                 }
             } else if (!rs.next() && username != null){
-              out.println("Invalid Username or Password.");
+                  %>
+                  <div class="alert alert-danger" role="alert">
+                    Invalid Username or Password.
+                  </div>
+                  <%
             }
 
           } catch(SQLException e) { 
             out.println("SQLException caught: " + e.getMessage()); 
         }
     %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   </body>
 </html>

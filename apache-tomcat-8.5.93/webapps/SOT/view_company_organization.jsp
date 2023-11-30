@@ -10,6 +10,8 @@
     </head>
     <body>
         <%@include file = "navbar.jsp"%>
+        <div class = "row justify-content-center">
+        <div class = "col-8 p-3 mb-2 bg-light text-dark">
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -37,14 +39,26 @@
             ResultSet rs = ps.executeQuery();
             //Check for valid website and print the contents.
             if (rs.next()){  
-                out.println(orgName + "<br>");
-                out.println("Members List: <br>");
+                %>
+                <h2><%=orgName%></h2>
+                <%
+
                 query = "SELECT username FROM membersofcompany WHERE orgname = ?";
                 PreparedStatement ps2 = con.prepareStatement(query);
                 ps2.setString(1, orgName);
                 rs = ps2.executeQuery();
+                %>
+                <h5>Members List</h5>
+                <%
                 while (rs.next()){
-                    out.println(rs.getString(1) + "<br>");
+                    %>
+                    <div class ="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><%=rs.getString(1)%></h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                    <%
                 }
 
             } else {
@@ -64,6 +78,8 @@
         }
 
         %>
+        </div>
+    </div>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
