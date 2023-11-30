@@ -11,6 +11,9 @@
     <body>
         <%@include file="navbar.jsp"%>
         <hr class="featurette-divider">
+
+        <div class="row justify-content-center">
+        <div class="col-8">
         <h3> Events </h3>
 
         <%
@@ -50,11 +53,7 @@
                     <%
                 }
                 %>
-                <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">No more events.</h5>
-                        </div>
-                   </div>
+                <b>No more events.</b>
                 <%
                 rs.close();
                 pstmt.close();
@@ -73,6 +72,8 @@
             out.println("Error: Unable to find config.properties file.");
         }
         %>
+            </div>
+        </div>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

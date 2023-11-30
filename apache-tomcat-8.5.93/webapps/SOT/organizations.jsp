@@ -9,16 +9,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <%@include file="navbar.jsp" %>
-        
-        <%
-        sso = request.getSession(false);
-        if (sso.getAttribute("username") != null){
-        %>
-            <%@include file="create_org.jsp" %>
-        <%
-        }
-        %>
+        <%@include file="navbar.jsp" %>  
 
         <%
         String db = "sot";
@@ -30,6 +21,40 @@
         String password = props.getProperty("db.password");
         Connection con = null;
 
+        %>
+        <div class = "row justify-content-center">
+            <div class = "col-6"><h3>Organizations</h3></div>
+            <div class = "col-2">
+                <div class = "text-end">
+            <%
+            sso = request.getSession(false);
+            if (sso.getAttribute("username") != null){
+            %>
+                <div class="modal" id="createOrgModal" tabindex="-1" aria-labelledby="createOrgModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="createOrgModalLabel">Create Organization</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <%@include file="create_org.jsp" %>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#createOrgModal"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createOrgModalCenter">
+                    +
+                </button>  </a>
+            <%
+            }
+            %>
+            </div>
+        </div>
+        </div>
+            <div class = "row justify-content-center">
+            <div class = "col-8">
+        <%
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
@@ -57,7 +82,7 @@
                                 ResultSet rs1 = ps.executeQuery();
                                 if (!rs1.next()){
                                     %>
-                                    <a href="join_organization.jsp?orgname=<%=studentOrgName%>"><button>Join Org</button></a>
+                                    <a href="join_organization.jsp?orgname=<%=studentOrgName%>"><button class = "btn btn-success">Join Org</button></a>
                                     <%
                                 } else {
                                     query = "SELECT * FROM studentleads WHERE username = ? AND orgname = ?";
@@ -67,11 +92,11 @@
                                     rs1 = ps.executeQuery();
                                     if (!rs1.next()){
                                     %>
-                                        <a href="leave_organization.jsp?orgname=<%=studentOrgName%>"><button>Leave Org</button></a>
+                                        <a href="leave_organization.jsp?orgname=<%=studentOrgName%>"><button class = "btn btn-outline-danger">Leave Org</button></a>
                                     <%
                                     } else {
                                     %>
-                                        <a href="delete_organization.jsp?orgname=<%=studentOrgName%>"><button>Delete Org</button></a>
+                                        <a href="delete_organization.jsp?orgname=<%=studentOrgName%>"><button class = "btn btn-danger">Delete Org</button></a>
                                     <%  
                                     }
                                 }
@@ -136,7 +161,7 @@
 
 
         } catch(SQLException e) {
-            out.println("SQLException caught: " + e.getMessage()); 
+            out.println(e.getMessage()); 
         } finally {
             if (con != null) {
                 try {
@@ -148,6 +173,7 @@
         }
 
         %>
-        <script src="js/bootstrap.min.js"></script>
+            </div>
+        </div>
     </body>
 </html>

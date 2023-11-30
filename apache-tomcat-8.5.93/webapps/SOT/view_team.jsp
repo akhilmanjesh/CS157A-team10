@@ -9,6 +9,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <%@include file = "navbar.jsp"%>
+        <div class="row justify-content-center">
+        <div class="col-8 p-3 mb-2 bg-light text-dark">
+
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -20,7 +24,6 @@
         Connection con = null;
 
         try {
-            HttpSession sso = request.getSession(false);
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
            
@@ -28,9 +31,13 @@
             String orgName = request.getParameter("orgname");
             String teamName = request.getParameter("teamname");
             %>
-            <a href = "view_student_organization.jsp?orgname=<%=orgName%>"> <%=orgName%> </a><br>
+            <a href = "view_student_organization.jsp?orgname=<%=orgName%>">         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/>
+            </svg></a>
+            <br>
+            <h3><%=teamName%></h3><br>
+            <h3>Team Members</h3><br>
             <%
-            out.println(teamName + "<br> Team Members List: <br>");
             String query = "SELECT username FROM assignedTo WHERE teamname = ? AND orgname = ?";
             PreparedStatement ps = con.prepareStatement(query);   
             ps.setString(1, teamName);                  
@@ -48,9 +55,14 @@
             if (rs.next()){
                 while (rsTeams.next()){
                     %>
-                        <a href= "http://localhost:8080/SOT/remove_team_member.jsp?orgname=<%=orgName%>&teamname=<%=teamName%>&target=<%=rsTeams.getString(1)%>"><button>Remove User</button></a>
+                        <div class ="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><%=rsTeams.getString(1)%></h5>
+                                <p class="card-text"><a href= "http://localhost:8080/SOT/remove_team_member.jsp?orgname=<%=orgName%>&teamname=<%=teamName%>&target=<%=rsTeams.getString(1)%>"><button>Remove User</button></a></p>
+                            </div>
+                        </div>
+                        
                     <%
-                    out.println(rsTeams.getString(1) + "<br>");
                 }
 
                 %>
@@ -59,7 +71,14 @@
             } else {
                 //Member List
                 while (rsTeams.next()){
-                    out.println(rsTeams.getString(1) + "<br>");
+                    %>
+                        <div class ="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><%=rsTeams.getString(1)%></h5>
+                            </div>
+                        </div>
+                        
+                    <%
                 }
             }
 
@@ -67,7 +86,7 @@
 
 
         } catch(SQLException e) {
-            out.println("SQLException caught: " + e.getMessage()); 
+            out.println(e.getMessage()); 
         } finally {
             if (con != null) {
                 try {
@@ -79,6 +98,8 @@
         }
 
         %>
+        </div>
+        </div>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -6,35 +6,84 @@
     <title>Signup Page</title>
   </head>
   <body>
-
-    <form method = "post">
-      <p>Please fill in this form to create an account.</p>
-  
-        
+<section class="h-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card card-registration my-4">
+          <div class="row g-0 align-items-center" style="background-color:#DCDCDC">
+            <div class="col-xl-7 d-none d-xl-block align-"  mx-auto>
+              <div class="text-center">
+                <img src="./generic_employee_logo.png" class="img-fluid" alt="Responsive image" style="width:300px">
+              </div>
+            </div>
+            <div class="col-xl-5" style="background-color:white">
+              <div class="card-body p-md-5 text-black">
+                <form method = "post">
+                  <h2>Company Account Registration</h2>
+                  <p>Please fill in this form to create an account.</p>
+                  <div class = row>
+                    <div class = col-md-3 mx-auto>
       <label for="username"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="username" id="username" required>
-
+                    </div>
+                  </div>
+                  <div class = row>
+                    <div class = col-md-3 mx-auto>
       <label for="email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" id="email" required> <br>
-  
+                    </div>
+                  </div>
+                  <div class = row>
+                    <div class = col-md-4 al mx-auto>
       <label for="pass"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="pass" id="pass" required>
-  
+                    </div>
+                  </div>
+                  <div class = row>
+                    <div class = col-md-3 mx-auto>
       <label for="pass-repeat"><b>Repeat Password</b></label>
       <input type="password" placeholder="Repeat Password" name="pass-repeat" id="pass-repeat" required> <br>
-
+                    </div>
+                  </div>
+                  <div class = row>
+                    <div class = col-md-3 mx-auto>
       <label for="CompName"><b>Company Name</b></label>
       <input type="text" placeholder="Company Name" name="CompName" id="CompName" required>
-
+                    </div>
+                  </div>
+                  <div class = row>
+                    <div class = col-md-3 mx-auto>
       <label for="department"><b>Department</b></label>
       <input type="text" placeholder="Department" name="Department" id="Department" required>
-  
+                    </div>
+                  </div>
+                  <div class = row>
+                    <div class = col-md-3 mx-auto>
       <label for="Job"><b>Job</b></label>
       <input type="text" placeholder="Job" name="Job" id="Job" required>
+                    </div>
+                  </div>
+        
+                  <div class = row justify-content-end>
+                    <div class = col-lg-12>
+                      <div class ="text-end">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                      </div>
+                     
+                    </div>
+                  </div>
 
-      <button type="submit" class="registerbtn">Register</button>
 
-    </form>
+                </form>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   </body>
   <%
   String db = "sot";
@@ -69,10 +118,30 @@
         
           if ( username != null & email != null && pass != null & passRepeat != null){
             if (usernameCheck.next() != false){
-              out.println("Username already taken.");
+                  %>
+                  <div class = "container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-md-2">
+                        <div class="alert alert-danger" role="alert">
+                          <div class ="text-center">Username has already been taken!</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <%
             } else{
               if (emailCheck.next() != false){
-                out.println("Email already in use.");
+                  %>
+                  <div class = "container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-md-2">
+                        <div class="alert alert-danger" role="alert">
+                          <div class ="text-center">Email already in use!</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <%
               } else {
                 if (pass.equals(passRepeat)){
                   String hashedPassword = BCrypt.hashpw(pass, BCrypt.gensalt());
@@ -94,10 +163,30 @@
 
                   usernameStatement.close();
                   emailStatement.close();
-                  out.println("Account created.");
+                  %>
+                  <div class = "container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-md-2">
+                        <div class="alert alert-primary" role="alert">
+                          <div class ="text-center">Account Successfully Created</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <%
  
                 } else {
-                  out.print("Passwords do not match!");
+                  %>
+                  <div class = "container-fluid">
+                    <div class="row justify-content-center">
+                      <div class="col-md-2">
+                        <div class="alert alert-danger" role="alert">
+                          <div class ="text-center">Passwords do not match!</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <%
                 }
               } 
             }

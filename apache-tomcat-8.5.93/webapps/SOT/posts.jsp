@@ -10,6 +10,12 @@
     </head>
     <body>
         <%@include file="navbar.jsp" %>
+        <hr class="featurette-divider">
+       
+
+        <div class="row justify-content-center">
+        <div class="col-8">
+        <h3> Posts </h3>
         <%
         String db = "sot";
         Properties props = new Properties();
@@ -24,6 +30,7 @@
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
 
+            /*
             // Delete post logic
             String deletePostId = request.getParameter("deletePostId");
             if (deletePostId != null && !deletePostId.isEmpty()) {
@@ -33,7 +40,7 @@
                 deleteStmt.executeUpdate();
                 deleteStmt.close();
             }
-
+            */
             String username = (String) sso.getAttribute("username");
             if (username == null){
                 out.println("Login to view posts.");
@@ -47,17 +54,21 @@
                     %>
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title"><%=rs.getString(3)%></h5>
+                            <h5 class="card-title">[<%=postId%>] <%=rs.getString(3)%></h5>
                             <p class="card-text"><%=rs.getString(2)%></p>
+                            <!--
                             <form method="post">
                                 <input type="hidden" name="deletePostId" value="<%=postId%>"/>
                                 <button type="submit">Delete Post</button>
                             </form>
+                            -->
                         </div>
                     </div>
                     <%
                 }
-                out.println("No more posts.");
+                %>
+                <b>No more posts.</b>
+                <%
 
                 rs.close();
                 ps.close();
@@ -74,6 +85,8 @@
             }
         }
         %>
+        </div>
+        </div>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
