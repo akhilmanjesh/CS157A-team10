@@ -111,6 +111,7 @@
                         <p class="card-text"><%= projectDescription %></p>
                         <% if(sso.getAttribute("username") != null && sso.getAttribute("type") == "companystaff" && isInProjectOrg) { %>
                             <a href="editProject.jsp?projectId=<%= projectId %>" class="btn btn-warning">Edit</a>
+                            <a href="createReview.jsp?projectId=<%= projectId %>&projectName=<%= projectName %>" class="btn btn-primary">Create Review</a>
                         <% } %>
                         <% if (isCompanyLead) { %> 
                             <a href="deleteProject.jsp?projectId=<%= projectId %>" class="btn btn-danger">Delete</a>
