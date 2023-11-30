@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <%@include file="navbar.jsp" %>  
     <div class="container mt-5">
-        <a href="http://localhost:8080/SOT/index.jsp" class="text-decoration-none"><h1>Home</h1></a>
         <h3>Create Review</h3>
 
         <form action="createReview.jsp" method="post">
@@ -48,8 +48,8 @@
                 Class.forName("com.mysql.jdbc.Driver");
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
 
-                HttpSession sso = request.getSession(false);
-                String username = (String) sso.getAttribute("username");
+                HttpSession sso1 = request.getSession(false);
+                String username = (String) sso1.getAttribute("username");
 
                 String reviewText = request.getParameter("reviewText");
                 int projectId = Integer.parseInt(request.getParameter("projectId"));
