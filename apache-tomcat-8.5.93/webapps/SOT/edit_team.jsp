@@ -14,7 +14,17 @@
         try {
             sso = request.getSession(false);
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
            
             username = (String) sso.getAttribute("username");
             orgName = request.getParameter("orgname");

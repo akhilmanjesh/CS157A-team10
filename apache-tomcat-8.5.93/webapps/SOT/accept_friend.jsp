@@ -14,10 +14,16 @@
         String action = request.getParameter("action");
         String friendUsername = request.getParameter("friendusername");
 
-        String dbURL = "jdbc:mysql://localhost:3306/sot?autoReconnect=true&useSSL=false";
-        String user = "root";
-        String password = "1723";
-        Connection con = null;
+        
+Properties props = new Properties();
+InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+props.load(input);
+input.close();
+String dbURL = props.getProperty("db.url");
+String user = props.getProperty("db.username");
+String password = props.getProperty("db.password");
+Connection con = null;
+
         PreparedStatement pstmt = null;
         ResultSet rs = null;
         Class.forName("com.mysql.jdbc.Driver");

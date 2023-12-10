@@ -1,54 +1,17565 @@
-<%@ page import="java.sql.*"%>
-<%@ page import="org.mindrot.jbcrypt.BCrypt" %>
-<html>
-  <head>
-    <title>Signup Page</title>
-  </head>
-  <body>
-    <%@include file="navbar.jsp"%>
 
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    %
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    @
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    q
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    *
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    %
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
 
-<style>
-  .img-container{
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    %
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    @
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    B
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    C
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    %
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
 
-  }
-</style>
-<section class="vh-100" style="background-color: #eee;">
-  <div class="container h-50">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-lg-12 col-xl-11">
-        <div class="card text-black" style="border-radius: 25px;">
-          <div class="card-body p-md-5">
-              <div class= "row d-flex justify-content-center">
-                <div class=col-md-4 align-self-center>
-                  <div class = "img-container">
-                    <a href = "studentsignup.jsp">
-                    <button type="button" class="btn btn-outline-primary">
-                    <h3>Create a Student Account</h1>
-                    <img src="./student_account.jpg" style="width:236px"
-                    class="img-fluid" alt="Sample image">
-                    </button>
-                    </a>
-                  </div>
-                </div>
-<div class=col-md-4 align-self-center>
-                  <div class = "img-container">
-                    <a href = "companysignup.jsp">
-                    <button type="button" class="btn btn-outline-primary">
-                    <h3>Create a Company Account</h1>
-                    <img src="./company_account.jpg" style="width:400px"
-                    class="img-fluid" alt="Sample image">
-                    </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  </body>
-</html>
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    S
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    P
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    %
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    @
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    %
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    {
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    }
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    k
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    :
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    #
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    ;
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    5
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    w
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    2
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    k
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    :
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    2
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    5
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    ;
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    5
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    w
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    4
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    3
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    C
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    S
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    A
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    _
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    w
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    :
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    2
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    3
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    6
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    S
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    4
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    3
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    C
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    C
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    A
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    1
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    r
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    _
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    .
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    j
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    w
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    :
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    4
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    0
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    x
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    -
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    f
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    =
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    S
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    p
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    g
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    "
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    u
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    a
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    v
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    s
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    e
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    c
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    i
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    n
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+     
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    b
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    o
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    d
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    y
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    <
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    /
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    h
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    t
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    m
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    l
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    >
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
+
+    Properties props = new Properties();
+    InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+    props.load(input);
+    input.close();
+    String dbURL = props.getProperty("db.url");
+    String user = props.getProperty("db.username");
+    String password = props.getProperty("db.password");
+    java.sql.Connection con; 
+    con = DriverManager.getConnection(dbURL, user, password);
+    
