@@ -1,6 +1,8 @@
 <%@ page import="java.sql.*"%>
 <%@ page import="org.mindrot.jbcrypt.BCrypt" %>
 <%@include file="navbar.jsp" %>
+<%@ page import="java.util.Properties"%>
+<%@ page import="java.io.InputStream"%>  
 <html>
   <head>
     <title>Signup Page</title>
@@ -86,10 +88,13 @@
 </section>
   </body>
   <%
-  String db = "sot";
-     String user; // assumes database name is the same as username
-       user = "root";
-     String password = "1723";
+        String db = "sot";
+        Properties props = new Properties();
+        InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+        props.load(input);
+        input.close();
+        String user = props.getProperty("db.username");
+        String password = props.getProperty("db.password");
      try {
          java.sql.Connection con; 
          Class.forName("com.mysql.jdbc.Driver");
