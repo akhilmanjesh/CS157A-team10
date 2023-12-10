@@ -22,7 +22,15 @@
         PreparedStatement pstmt = null;
         ResultSet rs = null;
         Class.forName("com.mysql.jdbc.Driver");
-        con = DriverManager.getConnection(dbURL, user, password);
+Connection con = null;
+Properties props = new Properties();
+InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+props.load(input);
+String user = props.getProperty("db.username");
+String password = props.getProperty("db.password");
+String url = props.getProperty("db.url");
+con = DriverManager.getConnection(url, user, password);
+input.close();
         if ("deleteFriend".equals(request.getParameter("action"))) {
             try {
                 String sql = "DELETE FROM friends WHERE user1 = ? AND user2 = ?";
@@ -41,7 +49,15 @@
         }
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection(dbURL, user, password);
+Connection con = null;
+Properties props = new Properties();
+InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+props.load(input);
+String user = props.getProperty("db.username");
+String password = props.getProperty("db.password");
+String url = props.getProperty("db.url");
+con = DriverManager.getConnection(url, user, password);
+input.close();
     
             if ("addFriend".equals(action) && friendUsername != null) {
                 if (friendUsername.equals(loggedInUser)){
@@ -114,7 +130,15 @@
         <h4>Pending Friends</h4>
         <%
             try {
-                con = DriverManager.getConnection(dbURL, user, password);
+Connection con = null;
+Properties props = new Properties();
+InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+props.load(input);
+String user = props.getProperty("db.username");
+String password = props.getProperty("db.password");
+String url = props.getProperty("db.url");
+con = DriverManager.getConnection(url, user, password);
+input.close();
                 String sql = "(SELECT user1 FROM friends WHERE user2 = ? AND pending = 1)";
                 pstmt = con.prepareStatement(sql);
                 pstmt.setString(1, loggedInUser);
@@ -153,7 +177,15 @@
         <h4>Current Friends</h4>
         <%
             try {
-                con = DriverManager.getConnection(dbURL, user, password);
+Connection con = null;
+Properties props = new Properties();
+InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+props.load(input);
+String user = props.getProperty("db.username");
+String password = props.getProperty("db.password");
+String url = props.getProperty("db.url");
+con = DriverManager.getConnection(url, user, password);
+input.close();
                 String sql = "(SELECT * from friends WHERE user1 = ? AND pending = 0 OR user2 = ? AND pending = 0)";
                 pstmt = con.prepareStatement(sql);
                 pstmt.setString(1, loggedInUser);

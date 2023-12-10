@@ -14,7 +14,15 @@
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + db + "?autoReconnect=true&useSSL=false", user, password);
+Connection con = null;
+Properties props = new Properties();
+InputStream input = getServletContext().getResourceAsStream("/WEB-INF/config.properties");
+props.load(input);
+String user = props.getProperty("db.username");
+String password = props.getProperty("db.password");
+String url = props.getProperty("db.url");
+con = DriverManager.getConnection(url, user, password);
+input.close();
 
             int projectId = Integer.parseInt(request.getParameter("projectId"));
 
