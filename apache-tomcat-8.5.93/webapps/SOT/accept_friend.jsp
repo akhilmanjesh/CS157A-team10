@@ -1,5 +1,7 @@
 <%@ page import="java.sql.*" %>
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ page import="java.util.Properties"%>
+<%@ page import="java.io.InputStream"%> 
 <html>
 <head>
     <title>Friends</title>
